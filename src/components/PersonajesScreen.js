@@ -4,6 +4,7 @@ import { personajes } from "../data/personajes";
 import {
 	basicosImages,
 	elementosImages,
+	portraitImages,
 	thumbnailImages,
 } from "../helpers/images";
 
@@ -46,12 +47,13 @@ export const PersonajesScreen = () => {
 		);
 	};
 
-	elementosArray.map((items) => console.log(items));
+
 	return (
-		<>
+		<>	
+		<div className="pS__container">
 			<h1>PersonajesScreen</h1>
 
-			<div>
+			<div className="pS__form">
 				<input
 					onChange={handleInputChange}
 					type="text"
@@ -59,9 +61,9 @@ export const PersonajesScreen = () => {
 				/>
 			</div>
 
-			<div>
+			<div className="pS__div-selector">
 				{elementosArray.map((items) => (
-					<div>
+					<div className="pS__selector-elementos">
 						<img
 							key={items}
 							className={activeClass}
@@ -73,7 +75,7 @@ export const PersonajesScreen = () => {
 				))}
 
 				{armasBasicosArray.map((items) => (
-					<div>
+					<div className="pS__selector-armas">
 						<img
 							key={items}
 							className={activeClass}
@@ -84,22 +86,28 @@ export const PersonajesScreen = () => {
 					</div>
 				))}
 			</div>
-			{listaPersonajes.map((personaje) => (
-				<div key={personaje.id}>
-					<p>{personaje.name}</p>
-					<p>{personaje.element}</p>
-					<p>{personaje.weapon}</p>
 
-					<img
-						src={thumbnailImages(`./${personaje.name}.png`).default}
-						alt={personaje.name}
-					/>
-					<img
-						src={elementosImages(`./${personaje.element}.png`).default}
-						alt={personaje.element}
-					/>
-				</div>
-			))}
+			<div className="pS__personajes-div">
+				{listaPersonajes.map((personaje) => (
+					<div className="pS__personaje-card" 
+						 key={personaje.id}>
+						{/* <p>{personaje.element}</p>
+						<p>{personaje.weapon}</p> */}
+						<h2>{personaje.name}</h2>
+						<img
+							src={elementosImages(`./${personaje.element}.png`).default}
+							alt={personaje.element}
+							className="pS__personaje-element"
+							/>
+						<img
+							src={portraitImages(`./${personaje.name}.jpg`).default}
+							alt={personaje.name}
+							className="pS__personaje-thumbnail"
+							/>
+					</div>
+				))}
+			</div>
+		</div>	
 		</>
 	);
 };
