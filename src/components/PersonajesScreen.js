@@ -35,18 +35,32 @@ export const PersonajesScreen = () => {
 		}else{
 		activeClass !== null ?
 		activeClass.classList.remove('active')
-		: console.log('no hay clases activas');
+		: console.log('');
 
 		e.target.classList.add('active');
 
 		setListaPersonajes(
 		personajes.filter((item) => item.element.includes(e.target.alt))
-		)}}
+		)}
+	}
 //ARMAS
 	const handleWeaponSelector = (e) => {
+		setIsActive(!isActive);
+
+		if(e.target.className === 'active'){
+			e.target.classList.remove('active')
+			setListaPersonajes(personajes)
+
+		}else{
+		activeClass !== null ?
+		activeClass.classList.remove('active')
+		: console.log('no hay clases activas');
+
+		e.target.classList.add('active');
+
 		setListaPersonajes(
-			personajes.filter((item) => item.weapon.includes(e.target.alt))
-		);
+		personajes.filter((item) => item.weapon.includes(e.target.alt))
+		)}
 	};
 //EFECTO PARA REFRESH DE CLASES 
 	useEffect(() => {
@@ -56,7 +70,7 @@ export const PersonajesScreen = () => {
 	return (
 		<>	
 		<div className="pS__container ">
-			<h1>PersonajesScreen</h1>
+			<h1>GenshinBuilds</h1>
 
 			<div className="pS__form">
 				<input
@@ -66,7 +80,7 @@ export const PersonajesScreen = () => {
 				/>
 			</div>
 
-			<div className="pS__div-selector">
+			
 				{elementosArray.map((items) => (
 					<div className="pS__selector-elementos" key={items}>
 						<img	
@@ -87,7 +101,7 @@ export const PersonajesScreen = () => {
 						/>
 					</div>
 				))}
-			</div>
+		
 
 			<div className="pS__personajes-div">
 				{listaPersonajes.map((personaje) => (

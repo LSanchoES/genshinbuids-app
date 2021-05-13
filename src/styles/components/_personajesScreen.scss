@@ -1,59 +1,89 @@
 .pS__container{
     display: flex;
     flex-wrap: wrap;
-    flex-flow: column;
+    flex-flow: wrap;
     justify-content: center;
     align-items: center;
     h1{
-        font-size: 10rem;
-        color: $primary;
+        font-size: 10vw;
+        color: $secondary;
         margin-bottom: 1rem;
+        box-shadow: 0px 2px 5px #333 ;
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
     }
     background-color: $primary-low;
 }
 .pS__form{
+
     display: flex;
-    border: 1px solid black;
-    border-radius: 12px;
     text-align: center;
     justify-content: center;
-    width: 50vw;
+    width: 100vw;
     height: 5vh;
     margin-bottom: 2rem;
     overflow: hidden;
+    color:#333;
+    font-weight: bold;
+    align-items: center;
+    padding: 0.5rem;
     input{
-        width: 100%;
+        border: 1px solid #333;
+        border-radius: 12px;
+        width: 50%;
         height: 100%;
         overflow: hidden;
-        border: none;
+        box-shadow: 0px 2px 5px #333 ;
         outline: none;
         padding-left: 1rem;
+        color:#333;
+        font-weight: bold;
+        font-size: 1rem;
     }
 }
-.pS__div-selector{
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: row;
-    border: 1px solid black;
-    border-radius: 12px;
-}
+
 .pS__selector-elementos{
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
+    background: #333;
+    filter: drop-shadow(0px 5px 10px );
+    
     img{
+        display: flex;
+        flex-flow: row;
         width: 4vw;
         margin: 1rem;
         cursor: pointer;
+        background: #333;
+        transition: all 400ms;
+        padding: 0.2rem;
+        &:hover{
+            border: transparent $secondary;
+            box-shadow: 0px 0px 30px #fff;
+            border-radius: 100%;
+        }
     }
 }
 .pS__selector-armas{
     display: flex;
     flex-direction: row;
+    background: lighten($color: #333, $amount: 10);
+    filter: drop-shadow(0px 5px 10px );
+    padding: 0.2rem;
+    
     img{
-        width: 4vw;
+        width: 4.3vw;
         margin: 1rem;
         cursor: pointer;
+        background: lighten($color: #333, $amount: 10);
+        transition: all 400ms;
+        &:hover{
+            border: transparent $secondary;
+            box-shadow: 0px 0px 30px #fff;
+            border-radius: 100%;
+        }
     }
 }
 .pS__personajes-div{
@@ -89,6 +119,11 @@
     background-color: #fff;
     filter: drop-shadow(0px 5px 10px );
     cursor: pointer;
+    transition: all 400ms;
+    &:hover{
+        border: transparent $secondary;
+        box-shadow: 2px 2px 10px $secondary;
+    }
 
 }
 .pS__personaje-thumbnail{
@@ -105,7 +140,7 @@
     width: 3vw;
     border: 1px solid black;
     border-radius: 50%;
-    background-color: $primary;
+    background-color: #333;
     top: 8vh;
     right: 8vw;
     filter: drop-shadow(0px 0px 20px #fff);

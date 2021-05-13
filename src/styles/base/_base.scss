@@ -7,9 +7,9 @@
 
 }
 .active{
-    border: 3px solid blue;
+    border: transparent $secondary-low;
     border-radius: 12px;
-    box-shadow: 0px 0px 5px blue;
+    box-shadow: 0px 0px 30px $secondary-low ;
 }
 
 /* width */
