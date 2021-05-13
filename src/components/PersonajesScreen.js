@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { armasBasicosArray, elementosArray } from "../data/dataArrays";
 import { personajes } from "../data/personajes";
 import {
@@ -11,17 +11,11 @@ import {
 
 export const PersonajesScreen = () => {
   
-	//Importando imagenes dinámicas:
-	//IMPORTANTE PONER .default porque se encuentra misteriosamente dentro de un array Module....
-	// console.log(portraitImages('./Albedo.jpg').default)
-
-	//Estados
-
 	const [listaPersonajes, setListaPersonajes] = useState(personajes);
-	const [activeClass, setactiveClass] = useState(""); //active
+	const [isActive, setIsActive] = useState(false); 
+	const activeClass = document.querySelector('.active')
 
-	//Buscador
-
+//BUSCADOR
 	const handleInputChange = (e) => {
 		const value = e.target.value.toLowerCase();
 		const result = personajes.filter((item) =>
@@ -30,27 +24,38 @@ export const PersonajesScreen = () => {
 
 		setListaPersonajes(result);
 	};
-
-	//Selectores
-
-	//Selector de elementos
+//ELEMENTOS
 	const handleElementSelector = (e) => {
-		setListaPersonajes(
-			personajes.filter((item) => item.element.includes(e.target.alt))
-		);
-	};
-	//Selector de armas
+		setIsActive(!isActive);
 
+		if(e.target.className === 'active'){
+			e.target.classList.remove('active')
+			setListaPersonajes(personajes)
+
+		}else{
+		activeClass !== null ?
+		activeClass.classList.remove('active')
+		: console.log('no hay clases activas');
+
+		e.target.classList.add('active');
+
+		setListaPersonajes(
+		personajes.filter((item) => item.element.includes(e.target.alt))
+		)}}
+//ARMAS
 	const handleWeaponSelector = (e) => {
 		setListaPersonajes(
 			personajes.filter((item) => item.weapon.includes(e.target.alt))
 		);
 	};
+//EFECTO PARA REFRESH DE CLASES 
+	useEffect(() => {
+	}, [isActive])
 
 
 	return (
 		<>	
-		<div className="pS__container">
+		<div className="pS__container ">
 			<h1>PersonajesScreen</h1>
 
 			<div className="pS__form">
@@ -63,10 +68,8 @@ export const PersonajesScreen = () => {
 
 			<div className="pS__div-selector">
 				{elementosArray.map((items) => (
-					<div className="pS__selector-elementos">
-						<img
-							key={items}
-							className={activeClass}
+					<div className="pS__selector-elementos" key={items}>
+						<img	
 							onClick={handleElementSelector}
 							src={elementosImages(`./${items}.png`).default}
 							alt={items}
@@ -75,10 +78,9 @@ export const PersonajesScreen = () => {
 				))}
 
 				{armasBasicosArray.map((items) => (
-					<div className="pS__selector-armas">
-						<img
-							key={items}
-							className={activeClass}
+					<div className="pS__selector-armas" key={items}>
+						<img	
+		
 							onClick={handleWeaponSelector}
 							src={basicosImages(`./${items}.png`).default}
 							alt={items}
@@ -89,7 +91,7 @@ export const PersonajesScreen = () => {
 
 			<div className="pS__personajes-div">
 				{listaPersonajes.map((personaje) => (
-					<div className="pS__personaje-card" 
+					<div className="pS__personaje-card animate__animated animate__fadeIn animate__slow" 
 						 key={personaje.id}>
 						{/* <p>{personaje.element}</p>
 						<p>{personaje.weapon}</p> */}
