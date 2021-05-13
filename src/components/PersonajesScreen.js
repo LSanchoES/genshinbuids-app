@@ -7,6 +7,7 @@ import {
 	portraitImages,
 	thumbnailImages,
 } from "../helpers/images";
+import {Link} from "react-router-dom";
 
 
 export const PersonajesScreen = () => {
@@ -105,22 +106,32 @@ export const PersonajesScreen = () => {
 
 			<div className="pS__personajes-div">
 				{listaPersonajes.map((personaje) => (
-					<div className="pS__personaje-card animate__animated animate__fadeIn animate__slow" 
-						 key={personaje.id}>
+					<>
+					<Link 
+						 to={`./personaje/${personaje.name}`} 
+						 personaje={personaje} 
+						 style={{ textDecoration: 'none' }}
+						 key={personaje.id}
+						 >
+					<div className="pS__personaje-card animate__animated animate__fadeIn animate__slow" >
 						{/* <p>{personaje.element}</p>
 						<p>{personaje.weapon}</p> */}
-						<h2>{personaje.name}</h2>
-						<img
+						<h2 className={personaje.element}>
+							{personaje.name}
+						</h2>
+						{/* <img
 							src={elementosImages(`./${personaje.element}.png`).default}
 							alt={personaje.element}
 							className="pS__personaje-element"
-							/>
+							/> */}
 						<img
 							src={portraitImages(`./${personaje.name}.jpg`).default}
 							alt={personaje.name}
 							className="pS__personaje-thumbnail"
 							/>
 					</div>
+					</Link>
+					</>
 				))}
 			</div>
 		</div>	

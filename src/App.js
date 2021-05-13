@@ -1,10 +1,10 @@
 import React from 'react'
-import { PersonajesScreen } from './components/PersonajesScreen'
+import { AppRouter } from './route/AppRouter'
 
 const App = () => {
   return (
     <>
-      <PersonajesScreen />
+      <AppRouter />
     </>
   )
 }
