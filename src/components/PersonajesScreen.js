@@ -55,7 +55,7 @@ export const PersonajesScreen = () => {
 		}else{
 		activeClass !== null ?
 		activeClass.classList.remove('active')
-		: console.log('no hay clases activas');
+		: console.log('');
 
 		e.target.classList.add('active');
 
@@ -68,6 +68,7 @@ export const PersonajesScreen = () => {
 	}, [isActive])
 
 
+//Las importaciones de imagenes llevan .default porque las encapsula por defecto...
 	return (
 		<>	
 		<div className="pS__container ">
@@ -108,22 +109,18 @@ export const PersonajesScreen = () => {
 				{listaPersonajes.map((personaje) => (
 					<>
 					<Link 
-						 to={`./personaje/${personaje.name}`} 
-						 personaje={personaje} 
+						 to={{
+							pathname: `./personaje/${personaje.name}`,
+							state: {personaje}
+						}}
 						 style={{ textDecoration: 'none' }}
 						 key={personaje.id}
 						 >
 					<div className="pS__personaje-card animate__animated animate__fadeIn animate__slow" >
-						{/* <p>{personaje.element}</p>
-						<p>{personaje.weapon}</p> */}
+
 						<h2 className={personaje.element}>
 							{personaje.name}
 						</h2>
-						{/* <img
-							src={elementosImages(`./${personaje.element}.png`).default}
-							alt={personaje.element}
-							className="pS__personaje-element"
-							/> */}
 						<img
 							src={portraitImages(`./${personaje.name}.jpg`).default}
 							alt={personaje.name}
