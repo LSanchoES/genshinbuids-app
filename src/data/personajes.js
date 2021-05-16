@@ -7,13 +7,13 @@ export const personajes = [
 },
 {   
     "id": "2",
-    "name": "Amber",
+    "name":"Amber",
     "element": "Pyro",
     "weapon": "arco",
 },
 {   
     "id": "3",
-    "name": "Barbara",
+    "name":"Barbara",
     "element": "Hydro",
     "weapon": "catalizador",
 },

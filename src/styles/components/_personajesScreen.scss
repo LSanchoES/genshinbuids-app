@@ -53,7 +53,7 @@
     img{
         display: flex;
         flex-flow: row;
-        width: 4vw;
+        width: 3vw;
         margin: 1rem;
         cursor: pointer;
         background: #333;
@@ -74,7 +74,7 @@
     padding: 0.2rem;
     
     img{
-        width: 4.3vw;
+        width: 3.3vw;
         margin: 1rem;
         cursor: pointer;
         background: lighten($color: #333, $amount: 10);
@@ -106,7 +106,7 @@
     height: 25vh;
     margin: 1rem;
     background-color: #fff;
-    filter: drop-shadow(0px 5px 10px );
+    filter: drop-shadow(1px 5px 5px #333 );
     cursor: pointer;
     transition: all 400ms;
     
