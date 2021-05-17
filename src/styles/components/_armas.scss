@@ -1,0 +1,37 @@
+.armas__image{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+    box-sizing: padding-box; 
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.armas__text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align:center;
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid black;
+    border-radius: 12px;
+    font-weight: bold;
+    overflow: hidden;
+    background-color: #333;
+    color: $primary-low;
+
+    font-size: 1vw;
+    box-sizing: border-box;
+    padding-top: 5px;
+
+    text-align:center;
+    cursor: pointer;
+    margin-left: 10px;
+
+}

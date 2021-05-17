@@ -9,7 +9,8 @@ import {
     espadaImages,
     lanzaImages
 } from "../helpers/images";
-import { Barbara } from './personajes/Barbara';
+import { Barbara } from './personajesComponents/Barbara';
+import { Bennett } from './personajesComponents/Bennett';
 
 
 export const PersonajeBuild = ({location}) => {
@@ -18,17 +19,21 @@ export const PersonajeBuild = ({location}) => {
     const {state} = location
     const {personaje} = state;
 
+    //Los componentes necesitan ser definidos e importados para generarse 
+    //DINÁMICAMENTE!
     const Components = {
         Barbara: Barbara,
+        Bennett: Bennett,
       };
 
     const Dynamic = Components[personaje.name]
 
-    console.log( Dynamic);
     return (
         <div>
             <h1>{personaje.name}</h1>
             <h2>{personaje.weapon.toUpperCase()}</h2>
+            <h3>Rol principal ... Rol secundario ... </h3>
+            <p><i>Recuerda que es recomendable utilizar los personajes en su rol principal pero siempre puedes experimentar con distintas composiciones de equipo</i> 😊</p>
             <img src={thumbnailImages(`./${personaje.name}.png`).default}
                 alt={personaje.name}
             />
