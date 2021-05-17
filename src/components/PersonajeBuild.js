@@ -2,12 +2,6 @@ import React from 'react'
 import {
     thumbnailImages,
     elementosImages,
-    artefactosImages,
-    arcoImages,
-    catalizadorImages,
-    claymoreImages,
-    espadaImages,
-    lanzaImages
 } from "../helpers/images";
 import { Barbara } from './personajesComponents/Barbara';
 import { Bennett } from './personajesComponents/Bennett';

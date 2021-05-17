@@ -1,5 +1,5 @@
 import React from "react";
-import { EspadaScreen } from "../EspadaScreen";
+import { LanzaScreen } from "../LanzaScreen";
 
 
 
@@ -13,7 +13,7 @@ export const Barbara = () => {
 				</div>
 				<div>
 					<h2>Mejores sets</h2>
-				<EspadaScreen />
+				<LanzaScreen />
 				</div>
 				<div>
 					<h2>Stats</h2>
