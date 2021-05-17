@@ -1,20 +1,5 @@
 import React from "react";
-import { Cuentos } from "../armasComponents/claymoreComponents/Cuentos";
-import { Bruja } from "../artefactosComponents/Bruja";
-import { Caballeria } from "../artefactosComponents/Caballeria";
-import { Corazon } from "../artefactosComponents/Corazon";
-import { Corredor } from "../artefactosComponents/Corredor";
-import { Domador } from "../artefactosComponents/Domador";
-import { Doncella } from "../artefactosComponents/Doncella";
-import { Errante } from "../artefactosComponents/Errante";
-import { Furia } from "../artefactosComponents/Furia";
-import { Geoarmada } from "../artefactosComponents/Geoarmada";
-import { Gladiador } from "../artefactosComponents/Gladiador";
-import { Llamas } from "../artefactosComponents/Llamas";
-import { Nobleza } from "../artefactosComponents/Nobleza";
-import { Petra } from "../artefactosComponents/Petra";
-import { Retroceso } from "../artefactosComponents/Retroceso";
-import { Sombraverde } from "../artefactosComponents/Sombraverde";
+import { ArtefactosScreen } from "../ArtefactosScreen";
 
 export const Barbara = () => {
 	return (
@@ -26,22 +11,7 @@ export const Barbara = () => {
 				</div>
 				<div>
 					<h2>Mejores sets</h2>
-					<Cuentos></Cuentos>
-					<Bruja></Bruja>
-					<Caballeria></Caballeria>
-					<Corazon></Corazon>
-					<Corredor></Corredor>
-					<Errante></Errante>
-					<Doncella></Doncella>
-					<Domador></Domador>
-					<Furia></Furia>
-					<Geoarmada></Geoarmada>
-					<Gladiador></Gladiador>
-					<Llamas></Llamas>
-					<Nobleza></Nobleza>
-					<Petra></Petra>
-					<Retroceso></Retroceso>
-					<Sombraverde></Sombraverde>
+
 				</div>
 				<div>
 					<h2>Stats</h2>

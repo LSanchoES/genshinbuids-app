@@ -3,13 +3,14 @@
     justify-content: center;
     align-content: center;
     width: 5vw;
-    height: 5vw;
+
     border: 1px solid black;
     border-radius: 12px;
     overflow: hidden;
     box-sizing: padding-box; 
     cursor: pointer;
     margin-left: 10px;
+    object-fit: cover;
 }
 
 .armas__text{
