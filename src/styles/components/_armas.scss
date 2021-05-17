@@ -3,14 +3,14 @@
     justify-content: center;
     align-content: center;
     width: 5vw;
-
+    height: 5vw;;
     border: 1px solid black;
     border-radius: 12px;
-    overflow: hidden;
     box-sizing: padding-box; 
     cursor: pointer;
     margin-left: 10px;
-    object-fit: cover;
+    object-fit:contain;
+    overflow: hidden;
 }
 
 .armas__text{
@@ -23,16 +23,16 @@
     border: 1px solid black;
     border-radius: 12px;
     font-weight: bold;
-    overflow: hidden;
     background-color: #333;
     color: $primary-low;
-
+    
     font-size: 1vw;
     box-sizing: border-box;
     padding-top: 5px;
-
+    
     text-align:center;
     cursor: pointer;
     margin-left: 10px;
-
+    
+    overflow: hidden;
 }
