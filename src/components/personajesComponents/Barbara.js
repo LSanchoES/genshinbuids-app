@@ -1,5 +1,7 @@
 import React from "react";
-import { ArtefactosScreen } from "../ArtefactosScreen";
+import { ArcoScreen } from "../ArcoScreen";
+
+
 
 export const Barbara = () => {
 	return (
@@ -11,7 +13,7 @@ export const Barbara = () => {
 				</div>
 				<div>
 					<h2>Mejores sets</h2>
-
+					<ArcoScreen />
 				</div>
 				<div>
 					<h2>Stats</h2>
