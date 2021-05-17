@@ -23,17 +23,26 @@ export const PersonajeBuild = ({location}) => {
     const Dynamic = Components[personaje.name]
 
     return (
-        <div>
-            <h1>{personaje.name}</h1>
-            <h2>{personaje.weapon.toUpperCase()}</h2>
-            <h3>Rol principal ... Rol secundario ... </h3>
+        <div className="personajBuild__container">
+            <div className="personajeBuild__card">
+                <h1 className=" personajBuild__name">{personaje.name}</h1>
+
+                <img src={thumbnailImages(`./${personaje.name}.png`).default}
+                    alt={personaje.name}
+                    className="personajBuild__thumbnail"
+                />
+                <img src={elementosImages(`./${personaje.element}.png`).default}
+                    alt={personaje.element}
+                    className="personajBuild__element"
+                    />         
+                <h3>{personaje.weapon.toUpperCase()}</h3>
+                <p>Rol principal: <b> {personaje.rol1}</b></p>
+                <p> Rol secundario: <b>{personaje.rol2}</b> </p>
+            </div>
+            <div className="personajBuild__tip">
             <p><i>Recuerda que es recomendable utilizar los personajes en su rol principal pero siempre puedes experimentar con distintas composiciones de equipo</i> 😊</p>
-            <img src={thumbnailImages(`./${personaje.name}.png`).default}
-                alt={personaje.name}
-            />
-            <img src={elementosImages(`./${personaje.element}.png`).default}
-                alt={personaje.element}
-            />         
+            <p><i>Los roles se dividen en DPS (Daño por segundo) / Apoyo (Ayudan a que el DPS haga más daño) / Nuke (Gran cantidad de daño en muy poco tiempo y rotar) y Healers (Curanderos) </i></p>
+            </div>
             <Dynamic />
         </div>
     )

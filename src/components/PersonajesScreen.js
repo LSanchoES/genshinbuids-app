@@ -5,9 +5,9 @@ import {
 	basicosImages,
 	elementosImages,
 	portraitImages,
-	thumbnailImages,
 } from "../helpers/images";
 import {Link} from "react-router-dom";
+import { NavbarUi } from "./NavbarUi";
 
 
 export const PersonajesScreen = () => {
@@ -73,7 +73,7 @@ export const PersonajesScreen = () => {
 		<>	
 		<div className="pS__container ">
 			<h1>GenshinBuilds</h1>
-
+			<NavbarUi />
 			<div className="pS__form">
 				<input
 					onChange={handleInputChange}
