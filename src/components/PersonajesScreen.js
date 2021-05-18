@@ -94,6 +94,7 @@ export const PersonajesScreen = () => {
 				))}
 
 				{armasBasicosArray.map((items) => (
+					
 					<div className="pS__selector-armas" key={items}>
 						<img	
 		

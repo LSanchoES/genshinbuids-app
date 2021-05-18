@@ -1,19 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArtefactosScreen } from "./ArtefactosScreen";
-import { PersonajesScreen } from "./PersonajesScreen";
+import Collapsible from 'react-collapsible';
 
 export const NavbarUi = () => {
 
-
 	return (
-		<div className="navbar__container">
-			{/* <h5><Link to='/' component={PersonajesScreen}> Personajes </Link></h5> */}
-			{/* <h5><Link to='/Artefactos' component={ArtefactosScreen}> Artefactos </Link></h5> */}
-			<h5> Armas</h5>
+		<>
+		<div className="navbar__container-big">
+			<Link to='/'><h5>Personajes</h5></Link>
+			<Link to='/artefactos'><h5>Artefactos</h5></Link>
+			<Collapsible trigger={<h5>Armas</h5>}>
+				<Link to='/catalizadores'><h5>Catalizadores</h5></Link>
+				<Link to='/claymores'><h5>Claymores</h5></Link>
+				<Link to='/espadas'><h5>Espadas</h5></Link>
+				<Link to='/lanzas'><h5>Lanzas</h5></Link>
+				<Link to='/arcos'><h5>Arcos</h5></Link>
+			</Collapsible>
+
 			<h5>Videos</h5>
 			<h5>Discord</h5>
-
 		</div>
+
+		<div className="navbar__container-small">
+		<Collapsible trigger={<i class="fas fa-bars"></i>}>
+		
+			<Link to='/'><h5>Personajes</h5></Link>
+			<Link to='/artefactos'><h5>Artefactos</h5></Link>
+			<Link to='/catalizadores'><h5>Catalizadores</h5></Link>
+			<Link to='/claymores'><h5>Claymores</h5></Link>
+			<Link to='/espadas'><h5>Espadas</h5></Link>
+			<Link to='/lanzas'><h5>Lanzas</h5></Link>
+			<Link to='/arcos'><h5>Arcos</h5></Link>
+			<h5>Videos</h5>
+			<h5>Discord</h5>
+		
+		</Collapsible>
+		</div>
+		</>
 	);
 };
