@@ -5,9 +5,15 @@ import {
 } from "../helpers/images";
 import { Header } from './Header';
 import { NavbarUi } from './NavbarUi';
+import { Albedo } from './personajesComponents/Albedo';
 import { Amber } from './personajesComponents/Amber';
 import { Barbara } from './personajesComponents/Barbara';
+import { Beidou } from './personajesComponents/Beidou';
 import { Bennett } from './personajesComponents/Bennett';
+import { Chongyun } from './personajesComponents/Chongyun';
+import { Diluc } from './personajesComponents/Diluc';
+import { Diona } from './personajesComponents/Diona';
+import { Hu_Tao } from './personajesComponents/Hu_Tao';
 
 
 export const PersonajeBuild = ({location}) => {
@@ -19,9 +25,16 @@ export const PersonajeBuild = ({location}) => {
     //Los componentes necesitan ser definidos e importados para generarse 
     //DINÁMICAMENTE!
     const Components = {
+        Albedo: Albedo,
         Amber: Amber,
         Barbara: Barbara,
         Bennett: Bennett,
+        Beidou: Beidou,
+        Chongyun: Chongyun,
+        Diluc: Diluc,
+        Diona: Diona,
+        Hu_Tao: Hu_Tao,
+
       };
 
     const Dynamic = Components[personaje.name]
@@ -49,8 +62,8 @@ export const PersonajeBuild = ({location}) => {
                 </div>
                 <div className="personajeBuild__description">
                     <h3>{personaje.weapon.toUpperCase()}</h3>
-                    <p>Principal: <b> {personaje.rol1}</b></p>
-                    <p>Secundario: <b>{personaje.rol2}</b> </p>
+                    <p><b>{personaje.rol1}</b></p>
+                    <p><b>{personaje.rol2}</b> </p>
                 </div>
             </div>
             <div className="personajeBuild__tip">

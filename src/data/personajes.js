@@ -82,7 +82,7 @@ export const personajes = [
 
 	{
 		id: "11",
-		name: "Hu-Tao",
+		name: "Hu_Tao",
 		element: "Pyro",
 		weapon: "lanza",
 		rol1: "DPS",
@@ -261,6 +261,14 @@ export const personajes = [
 		name: "Yanfei",
 		element: "Pyro",
 		weapon: "catalizador",
+		rol1: "DPS",
+		rol2: "Nuke",
+	},
+	{
+		id: "34",
+		name: "Eula",
+		element: "Cryo",
+		weapon: "claymore",
 		rol1: "DPS",
 		rol2: "Nuke",
 	},
