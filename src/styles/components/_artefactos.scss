@@ -2,13 +2,17 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 5vw;
-    border: 1px solid black;
+    box-shadow: -2px -2px 5px $secondary inset;
     border-radius: 12px;
     overflow: hidden;
     box-sizing: padding-box; 
     cursor: pointer;
-
+    width: 4rem;
+    transition: all 500ms;
+    margin: 1rem;
+    &:hover{
+        transform: scale(0.9);
+    }
 }
 
 .artefactos__text{
@@ -16,21 +20,18 @@
     justify-content: center;
     align-content: center;
     text-align:center;
-    width: 5vw;
-    height: 5vw;
-    border: 1px solid black;
     border-radius: 12px;
     font-weight: bold;
-    overflow: hidden;
     background-color: #333;
     color: $primary-low;
-
-    font-size: 1vw;
-    box-sizing: border-box;
-    padding-top: 5px;
-
+    margin: 1rem;
+    box-sizing: border-box; 
     text-align:center;
     cursor: pointer;
-  
+    overflow: hidden;
+    padding: 3ch 1ch 3ch 1ch;
+    box-shadow: 2px 2px 5px $secondary;
+    font-size: 0.7ch;
 
 }
+

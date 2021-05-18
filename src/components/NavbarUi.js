@@ -22,7 +22,7 @@ export const NavbarUi = () => {
 		</div>
 
 		<div className="navbar__container-small">
-		<Collapsible trigger={<i class="fas fa-bars"></i>}>
+		<Collapsible trigger={<i className="fas fa-bars"></i>}>
 		
 			<Link to='/'><h5>Personajes</h5></Link>
 			<Link to='/artefactos'><h5>Artefactos</h5></Link>

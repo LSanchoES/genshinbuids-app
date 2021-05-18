@@ -1,7 +1,98 @@
-.personajBuild__container{}
-.personajBuild__container{}
-.personajBuild__container{}
-.personajBuild__container{}
-.personajBuild__container{}
-.personajBuild__container{}
-.personajBuild__container{}
+.personajeBuild__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.personajeBuild__card{
+    display: flex;
+    min-height: 50vh;
+    min-width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px -2px 5px #333 inset;
+    border-radius: 12px;
+    margin: 2rem;
+    width: 20vw;
+    filter: drop-shadow(0px 5px 3px #333);
+    background-color: $primary-low;
+    padding: 1rem;
+    
+    h3{
+        
+        box-shadow: -2px -2px 5px $secondary inset;
+        padding: 1rem;
+        margin-top: 1rem;
+        border-radius: 12px;
+        font-size: 2ch;
+        margin: 1rem;
+    }
+    p{
+        
+        box-shadow: -2px -2px 5px $secondary inset;
+        padding: 1rem;
+        margin-top: 1rem;
+        border-radius: 12px;
+        margin: 1rem;
+    }
+
+}
+.personajeBuild__images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.personajeBuild__element{
+    display: flex;
+    box-shadow: -2px -2px 5px $secondary inset;
+    padding: 1rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.personajeBuild__description{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.personajeBuild__name{
+    display: flex;
+    color: $secondary;
+    width: 50%;
+    justify-content: center;
+    margin-bottom: 2rem;
+    box-shadow: -2px -2px 5px $secondary inset;
+    border-radius: 12px;
+    padding: 0.5rem;
+}
+.personajeBuild__thumbnail{
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 12px;
+    box-shadow: -2px -2px 5px $secondary inset;
+
+}
+.personajeBuild__tip{
+    display: flex;
+    box-shadow: -2px -2px 5px #333 inset;
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1rem;
+    p{
+        margin: 1rem;
+    }
+}
+
+@media (max-width:450px){
+
+    .personajeBuild__name{
+        width: 100%;
+    }
+    .personajeBuild__tip{
+        padding: 1rem;
+        flex-direction: column;
+    }
+}
