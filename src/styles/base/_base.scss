@@ -54,14 +54,14 @@ main {
 	padding-bottom: 0.4rem;
 	background: rgb(7, 157, 207);
 	overflow: hidden;
-	color: black;
+	color: white;
 }
 .Electro {
 	width: 100%;
 	padding-bottom: 0.4rem;
 	background: rgb(171, 115, 213);
 	overflow: hidden;
-	color: black;
+	color: #fff;
 }
 .Dendro {
 	width: 100%;
@@ -75,7 +75,15 @@ main {
 	overflow: hidden;
 	color: black;
 }
-
+.react-card-flipper{
+	overflow: hidden !important;
+}
+.react-card-front{
+	overflow: hidden !important;
+}
+.react-card-back{
+	overflow: hidden !important;
+}
 //SCROLLBAR
 
 /* width */
@@ -100,32 +108,4 @@ main {
 	background: $secondary;
 }
 
-//Margins
-.mt-1 {
-	margin-top: 5px;
-}
 
-.mt-5 {
-	margin-top: 10px;
-}
-
-.mb-1 {
-	margin-bottom: 5px;
-}
-
-.mb-5 {
-	margin-bottom: 20px;
-}
-
-.ml-1 {
-	margin-left: 5px;
-}
-.ml-5 {
-	margin-left: 20px;
-}
-.mr-1 {
-	margin-right: 5px;
-}
-.mr-5 {
-	margin-right: 20px;
-}

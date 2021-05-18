@@ -71,10 +71,10 @@ export const PersonajesScreen = () => {
 //Las importaciones de imagenes llevan .default porque las encapsula por defecto...
 	return (
 		<>	
-		<div className="pS__container ">
+		<div className="pS__container  ">
 			<h1>GenshinBuilds</h1>
 			<NavbarUi />
-			<div className="pS__form">
+			<div className="pS__form animate__animated animate__fadeIn">
 				<input
 					onChange={handleInputChange}
 					type="text"
@@ -84,7 +84,8 @@ export const PersonajesScreen = () => {
 
 			
 				{elementosArray.map((items) => (
-					<div className="pS__selector-elementos" key={items}>
+					<div className="pS__selector-elementos animate__animated animate__fadeIn" 
+					key={items}>
 						<img	
 							onClick={handleElementSelector}
 							src={elementosImages(`./${items}.png`).default}
@@ -95,7 +96,8 @@ export const PersonajesScreen = () => {
 
 				{armasBasicosArray.map((items) => (
 					
-					<div className="pS__selector-armas" key={items}>
+					<div className="pS__selector-armas animate__animated animate__fadeIn"
+					 key={items}>
 						<img	
 		
 							onClick={handleWeaponSelector}

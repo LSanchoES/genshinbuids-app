@@ -3,6 +3,7 @@ import { Cuentos } from "../armasComponents/catalizadorComponents/Cuentos";
 import { Prototipo } from "../armasComponents/catalizadorComponents/Prototipo";
 import { Doncella } from "../artefactosComponents/Doncella";
 import { Nobleza } from "../artefactosComponents/Nobleza";
+import { Footer } from "../Footer";
 
 
 
@@ -49,6 +50,7 @@ export const Barbara = (props) => {
 
 				<div className="buildParticular__stats-container">
 					<h2>Stats</h2>
+					<div className="buildParticular__stat-wrap">
 					<div className="buildParticular__stat-item">
 						<h3>Copa</h3>
 						<p>Vida</p>
@@ -67,9 +69,11 @@ export const Barbara = (props) => {
 						<p>Vida</p>
 						<p>Vida</p>
 						<p>Vida</p>
+					</div>
 					</div>	
 				</div>
 			</div>
+			<Footer />
 		</>
 	);
 };

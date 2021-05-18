@@ -30,7 +30,7 @@ export const PersonajeBuild = ({location}) => {
         <>
         <Header />
         <NavbarUi />
-        <div className="personajeBuild__container">
+        <div className="personajeBuild__container animate__animated animate__fadeIn">
 
 
             <div className="personajeBuild__card">
