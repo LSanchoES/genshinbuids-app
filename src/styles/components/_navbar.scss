@@ -8,6 +8,10 @@
         text-decoration: none;
         cursor: pointer;
         font-size: 3ch;
+        transition: all 500ms;
+        &:hover{
+            color: $primary;
+        }
     }
     a{
         list-style: none;
@@ -28,6 +32,10 @@
         text-decoration: none;
         cursor: pointer;
         font-size: 2ch;
+        transition: all 500ms;
+        &:hover{
+            color: $primary;
+        }
     }
     a{
         list-style: none;

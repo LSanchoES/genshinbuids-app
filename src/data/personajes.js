@@ -194,7 +194,7 @@ export const personajes = [
 	},
 	{
 		id: "25",
-		name: "Viajero",
+		name: "Viajero_Anemo",
 		element: "Anemo",
 		weapon: "espada",
 		rol1: "Apoyo",
@@ -202,7 +202,7 @@ export const personajes = [
 	},
 	{
 		id: "26",
-		name: "Viajero",
+		name: "Viajero_Geo",
 		element: "Geo",
 		weapon: "espada",
 		rol1: "DPS",

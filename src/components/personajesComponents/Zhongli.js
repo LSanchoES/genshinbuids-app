@@ -2,7 +2,7 @@ import React from "react";
 import { Footer } from "../Footer";
 
 
-export const Plantilla = (props) => {
+export const Zhongli = (props) => {
 	//Desestructurando props ya sabes... llegan del Link Dynamico (PersonajesBuild)
 	const {personaje} = props;
 

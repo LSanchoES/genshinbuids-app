@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
     thumbnailImages,
     elementosImages,
@@ -13,15 +13,45 @@ import { Bennett } from './personajesComponents/Bennett';
 import { Chongyun } from './personajesComponents/Chongyun';
 import { Diluc } from './personajesComponents/Diluc';
 import { Diona } from './personajesComponents/Diona';
+import { Eula } from './personajesComponents/Eula';
+import { Fischl } from './personajesComponents/Fischl';
+import { Ganyu } from './personajesComponents/Ganyu';
 import { Hu_Tao } from './personajesComponents/Hu_Tao';
+import { Jean } from './personajesComponents/Jean';
+import { Kaeya } from './personajesComponents/Kaeya';
+import { Keqing } from './personajesComponents/Keqing';
+import { Klee } from './personajesComponents/Klee';
+import { Lisa } from './personajesComponents/Lisa';
+import { Mona } from './personajesComponents/Mona';
+import { Ningguang } from './personajesComponents/Ningguang';
+import { Noelle } from './personajesComponents/Noelle';
+import { Qiqi } from './personajesComponents/Qiqi';
+import { Razor } from './personajesComponents/Razor';
+import { Rosaria } from './personajesComponents/Rosaria';
+import { Sacarosa } from './personajesComponents/Sacarosa';
+import { Tartaglia } from './personajesComponents/Tartaglia';
+import { Venti } from './personajesComponents/Venti';
+import { Viajero_Anemo } from './personajesComponents/Viajero_Anemo';
+import { Viajero_Geo } from './personajesComponents/Viajero_Geo';
+import { Xiangling } from './personajesComponents/Xiangling';
+import { Xiao } from './personajesComponents/Xiao';
+import { Xingqiu } from './personajesComponents/Xingqiu';
+import { Xinyan } from './personajesComponents/Xinyan';
+import { Yanfei } from './personajesComponents/Yanfei';
+import { Zhongli } from './personajesComponents/Zhongli';
 
 
-export const PersonajeBuild = ({location}) => {
+export const PersonajeBuild = (history) => {
 
     //Obtención de la data proviniente de React Router Dom (path + state)
+    console.log(history)
+    const {location} = history
     const {state} = location
     const {personaje} = state;
 
+    //Top de cada page mediante history
+    
+    
     //Los componentes necesitan ser definidos e importados para generarse 
     //DINÁMICAMENTE!
     const Components = {
@@ -33,7 +63,32 @@ export const PersonajeBuild = ({location}) => {
         Chongyun: Chongyun,
         Diluc: Diluc,
         Diona: Diona,
+        Eula: Eula,
+        Fischl: Fischl,
+        Ganyu: Ganyu,
         Hu_Tao: Hu_Tao,
+        Jean: Jean,
+        Kaeya: Kaeya,
+        Keqing: Keqing,
+        Klee: Klee,
+        Lisa: Lisa,
+        Mona: Mona,
+        NIngguang: Ningguang,
+        Noelle: Noelle,
+        Qiqi: Qiqi,
+        Razor: Razor,
+        Rosaria: Rosaria,
+        Sacarosa: Sacarosa,
+        Tartaglia: Tartaglia,
+        Venti: Venti,
+        Viajero_Anemo: Viajero_Anemo,
+        Viajero_Geo: Viajero_Geo,
+        Xiangling: Xiangling,
+        Xiao: Xiao,
+        Xingqiu: Xingqiu,
+        Xinyan: Xinyan,
+        Yanfei: Yanfei,
+        Zhongli: Zhongli,
 
       };
 

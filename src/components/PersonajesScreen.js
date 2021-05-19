@@ -111,6 +111,7 @@ export const PersonajesScreen = () => {
 			<div className="pS__personajes-div">
 				{listaPersonajes.map((personaje) => (
 					<>
+					
 					<Link 
 						 to={{
 							pathname: `./personaje/${personaje.name}`,
