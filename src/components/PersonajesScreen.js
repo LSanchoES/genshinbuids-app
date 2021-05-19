@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { Fragment, useState } from "react";
 import { armasBasicosArray, elementosArray } from "../data/dataArrays";
 import { personajes } from "../data/personajes";
 import {
@@ -8,6 +8,7 @@ import {
 } from "../helpers/images";
 import {Link} from "react-router-dom";
 import { NavbarUi } from "./NavbarUi";
+import { Header } from "./Header";
 
 
 export const PersonajesScreen = () => {
@@ -64,15 +65,15 @@ export const PersonajesScreen = () => {
 		)}
 	};
 //EFECTO PARA REFRESH DE CLASES 
-	useEffect(() => {
-	}, [isActive])
 
 
 //Las importaciones de imagenes llevan .default porque las encapsula por defecto...
+
+
 	return (
 		<>	
 		<div className="pS__container  ">
-			<h1>GenshinBuilds</h1>
+			<Header />
 			<NavbarUi />
 			<div className="pS__form animate__animated animate__fadeIn">
 				<input
@@ -110,15 +111,15 @@ export const PersonajesScreen = () => {
 
 			<div className="pS__personajes-div">
 				{listaPersonajes.map((personaje) => (
-					<>
+					<Fragment key={personaje.id}>
 					
 					<Link 
+							
 						 to={{
 							pathname: `./personaje/${personaje.name}`,
 							state: {personaje}
 						}}
 						 style={{ textDecoration: 'none' }}
-						 key={personaje.id}
 						 >
 					<div className="pS__personaje-card animate__animated animate__fadeIn animate__slow" >
 
@@ -132,7 +133,7 @@ export const PersonajesScreen = () => {
 							/>
 					</div>
 					</Link>
-					</>
+					</Fragment>
 				))}
 			</div>
 		</div>	

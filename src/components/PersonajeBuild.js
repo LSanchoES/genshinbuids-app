@@ -1,4 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef} from 'react'
+
+
 import {
     thumbnailImages,
     elementosImages,
@@ -44,13 +46,20 @@ import { Zhongli } from './personajesComponents/Zhongli';
 export const PersonajeBuild = (history) => {
 
     //Obtención de la data proviniente de React Router Dom (path + state)
-    console.log(history)
+
     const {location} = history
     const {state} = location
     const {personaje} = state;
 
-    //Top de cada page mediante history
-    
+    //Top de cada page
+
+    const ref = useRef()
+
+    useEffect(() => {
+        ref.current.scrollIntoView()
+    }, [])
+    //Referencia a #gosth para llevar alli la vista
+      
     
     //Los componentes necesitan ser definidos e importados para generarse 
     //DINÁMICAMENTE!
@@ -73,7 +82,7 @@ export const PersonajeBuild = (history) => {
         Klee: Klee,
         Lisa: Lisa,
         Mona: Mona,
-        NIngguang: Ningguang,
+        Ningguang: Ningguang,
         Noelle: Noelle,
         Qiqi: Qiqi,
         Razor: Razor,
@@ -92,16 +101,20 @@ export const PersonajeBuild = (history) => {
 
       };
 
-    const Dynamic = Components[personaje.name]
+    const Dynamic = Components[personaje.name];
 
+      
     return (
         <>
-        <Header />
+        
+        <span className="gosth"ref={ref}></span>
+        <Header  />
         <NavbarUi />
+  
         <div className="personajeBuild__container animate__animated animate__fadeIn">
 
 
-            <div className="personajeBuild__card">
+            <div className="personajeBuild__card animate__animated animate__slideInDown">
                 <h1 className=" personajeBuild__name">{personaje.name}</h1>
 
                 <div className="personajeBuild__images">

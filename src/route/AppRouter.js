@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 import {
     BrowserRouter as Router,
     Route,
@@ -16,7 +16,7 @@ import { PersonajesScreen } from '../components/PersonajesScreen';
 
 
 export const AppRouter = () => {
-
+  
 
     return (
         <Router>

@@ -6,6 +6,7 @@ export const Xinyan = (props) => {
 	//Desestructurando props ya sabes... llegan del Link Dynamico (PersonajesBuild)
 	const {personaje} = props;
 
+	
 	return (
 		<>
 			<div className="buildParticular__container">

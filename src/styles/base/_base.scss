@@ -86,8 +86,11 @@ main {
 }
 //SCROLLBAR
 
+
+
 /* width */
 ::-webkit-scrollbar {
+	-webkit-appearance: none;
 	width: 10px;
 	border: 1px solid black;
 }
