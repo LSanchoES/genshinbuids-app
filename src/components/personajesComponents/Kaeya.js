@@ -1,5 +1,7 @@
 import React from "react";
 import { Footer } from "../Footer";
+import { artefactosComponents } from "../../helpers/artefactosComponents";
+import { espadaComponents } from "../../helpers/espadaComponents";
 
 
 export const Kaeya = (props) => {

@@ -1,4 +1,6 @@
 import React from "react";
+import { catalizadorComponents } from "../../helpers/catalizadorComponents";
+import { artefactosComponents } from "../../helpers/artefactosComponents";
 import { Footer } from "../Footer";
 
 

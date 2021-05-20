@@ -1,6 +1,7 @@
 import React from "react";
 import { Footer } from "../Footer";
-
+import { artefactosComponents } from "../../helpers/artefactosComponents";
+import { lanzaComponents } from "../../helpers/lanzaComponents";
 
 export const Rosaria = (props) => {
 	//Desestructurando props ya sabes... llegan del Link Dynamico (PersonajesBuild)

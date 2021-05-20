@@ -1,4 +1,6 @@
 import React from "react";
+import { artefactosComponents } from "../../helpers/artefactosComponents";
+import { espadaComponents } from "../../helpers/espadaComponents";
 import { Footer } from "../Footer";
 
 

@@ -1,20 +1,8 @@
 import React from "react";
-import { Agata } from "../armasComponents/catalizadorComponents/Agata";
-import { Candado } from "../armasComponents/catalizadorComponents/Candado";
-import { Carta } from "../armasComponents/catalizadorComponents/Carta";
-import { Codice } from "../armasComponents/catalizadorComponents/Codice";
-import { Frio } from "../armasComponents/catalizadorComponents/Frio";
-import { Grimorio } from "../armasComponents/catalizadorComponents/Grimorio";
-import { Ojo } from "../armasComponents/catalizadorComponents/Ojo";
-import { Oracion } from "../armasComponents/catalizadorComponents/Oracion";
-import { Pergamino } from "../armasComponents/catalizadorComponents/Pergamino";
-import { Perla } from "../armasComponents/catalizadorComponents/Perla";
-import { Sinfonia } from "../armasComponents/catalizadorComponents/Sinfonia";
-import { Bruja } from "../artefactosComponents/Bruja";
-import { Errante } from "../artefactosComponents/Errante";
-import { Gladiador } from "../artefactosComponents/Gladiador";
-import { Nobleza } from "../artefactosComponents/Nobleza";
+import { artefactosComponents } from "../../helpers/artefactosComponents";
+import { catalizadorComponents } from "../../helpers/catalizadorComponents";
 import { Footer } from "../Footer";
+
 
 
 export const Yanfei = (props) => {
@@ -31,22 +19,22 @@ export const Yanfei = (props) => {
 
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
-							<Pergamino />
-							<Oracion />
-							<Candado />
+							{catalizadorComponents.Pergamino }
+							{catalizadorComponents.Oracion }
+							{catalizadorComponents.Candado }
 
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-							<Sinfonia />
-							<Perla />
-							<Agata />
-							<Carta />
-							<Grimorio />
-							<Ojo />
-							<Frio />
+							{catalizadorComponents.Sinfonia }
+							{catalizadorComponents.Perla }
+							{catalizadorComponents.Agata }
+							{catalizadorComponents.Carta }
+							{catalizadorComponents.Grimorio }
+							{catalizadorComponents.Ojo }
+							{catalizadorComponents.Frio }
 
 
 						</div>
@@ -59,18 +47,19 @@ export const Yanfei = (props) => {
 
 							{/* COMPONENTES DE ARTEFACTOS */}
 
+
 							<div className="buildParticular__artefactos-item">
-							<Bruja />x4
+							{artefactosComponents.Bruja}x4
 							</div>
 
 							<div className="buildParticular__artefactos-item">
-							<Errante />x4
+							{artefactosComponents.Errante}x4
 							</div>
 
 							<div className="buildParticular__artefactos-item">
-							<Bruja />x2 <Gladiador /> x2
+							{artefactosComponents.Bruja} x2
+							{artefactosComponents.Gladiador }x2
 							</div>
-
 
 						</div>
 				</div>
@@ -127,16 +116,16 @@ export const Yanfei = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-						<Pergamino />
+						{catalizadorComponents.Pergamino }
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-						<Sinfonia />
-						<Carta />
-						<Codice />
-
+						{catalizadorComponents.Sinfonia }
+						{catalizadorComponents.Carta }
+						{catalizadorComponents.Codice }
+						
 
 
 						</div>
@@ -150,10 +139,10 @@ export const Yanfei = (props) => {
 							{/* COMPONENTES DE ARTEFACTOS */}
 
 							<div className="buildParticular__artefactos-item">
-							<Nobleza /> x4
+							{artefactosComponents.Nobleza} x4
 							</div>
 							<div className="buildParticular__artefactos-item">
-							<Bruja /> x4
+							{artefactosComponents.Bruja} x4
 							</div>
 
 						</div>

@@ -1,34 +1,36 @@
-.armas__image{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    box-shadow: -2px -2px 5px $secondary inset;
-    border-radius: 12px;
-    overflow: hidden;
-    box-sizing: padding-box; 
-    cursor: pointer;
-    transition: all 500ms;
-    margin: 1rem;
-    &:hover{
-        transform: scale(0.9);
-    }
+.armas__image {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	box-shadow: -2px -2px 5px $secondary inset;
+	border-radius: 12px;
+	overflow: hidden;
+	box-sizing: padding-box;
+	cursor: pointer;
+	transition: all 500ms;
+	margin: 1rem;
+	width: 6rem;
+	image-rendering:optimizeQuality;
+    background-color: $primary-low;
+	&:hover {
+		transform: scale(0.9);
+	}
 }
 
-.armas__text{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    text-align:center;
-    border-radius: 12px;
-    font-weight: bold;
-    background-color: #333;
-    color: $primary-low;
-    margin: 1rem;
-    box-sizing: border-box; 
-    text-align:center;
-    cursor: pointer;
-    overflow: hidden;
-    padding: 3ch 1ch 3ch 1ch;
-    box-shadow: 2px 2px 5px $secondary;
-
+.armas__text {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	border-radius: 12px;
+	font-weight: bold;
+	background-color: #333;
+	color: $primary-low;
+	margin: 1rem;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+	padding: 3ch 1ch 3ch 1ch;
+	box-shadow: 2px 2px 5px $secondary;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { Footer } from "../Footer";
-
+import { arcoComponents } from "../../helpers/arcoComponents";
+import { artefactosComponents } from "../../helpers/artefactosComponents";
 
 export const Diona = (props) => {
 	//Desestructurando props ya sabes... llegan del Link Dynamico (PersonajesBuild)

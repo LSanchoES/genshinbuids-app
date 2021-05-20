@@ -1,18 +1,6 @@
 import React from "react";
-import { Agata } from "../armasComponents/catalizadorComponents/Agata";
-import { Candado } from "../armasComponents/catalizadorComponents/Candado";
-import { Carta } from "../armasComponents/catalizadorComponents/Carta";
-import { Cuentos } from "../armasComponents/catalizadorComponents/Cuentos";
-import { Frio } from "../armasComponents/catalizadorComponents/Frio";
-import { Oracion } from "../armasComponents/catalizadorComponents/Oracion";
-import { Perla } from "../armasComponents/catalizadorComponents/Perla";
-import { Prototipo } from "../armasComponents/catalizadorComponents/Prototipo";
-import { Sinfonia } from "../armasComponents/catalizadorComponents/Sinfonia";
-import { Corazon } from "../artefactosComponents/Corazon";
-import { Doncella } from "../artefactosComponents/Doncella";
-import { Errante } from "../artefactosComponents/Errante";
-import { Gladiador } from "../artefactosComponents/Gladiador";
-import { Nobleza } from "../artefactosComponents/Nobleza";
+import { artefactosComponents } from "../../helpers/artefactosComponents";
+import { catalizadorComponents } from "../../helpers/catalizadorComponents";
 import { Footer } from "../Footer";
 
 
@@ -32,13 +20,13 @@ export const Barbara = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-						<Cuentos /> Es de 3 estrellas pero es la mejor para Barbara
-
+						
+						{catalizadorComponents.Cuentos} Es de 3 estrellas pero es la mejor para Barbara
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-							<Prototipo />
+						{catalizadorComponents.Prototipo}
 
 						</div>
 
@@ -52,13 +40,13 @@ export const Barbara = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
-							<Doncella /> x4
+							{artefactosComponents.Doncella} x4
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-							<Nobleza />	x4
+							{artefactosComponents.Nobleza}	x4
 
 							</div>
 
@@ -119,19 +107,18 @@ export const Barbara = (props) => {
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-							<Candado />
-							<Oracion />
+							{catalizadorComponents.Candado}
+							{catalizadorComponents.Oracion}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-							<Sinfonia />
-							<Perla />
-							<Agata />
-							<Carta />
-							<Frio />
-
+							{catalizadorComponents.Sinfonia}
+							{catalizadorComponents.Perla}
+							{catalizadorComponents.Agata} 
+							{catalizadorComponents.Carta} 
+							{catalizadorComponents.Frio }
 						</div>
 
 				</div>
@@ -144,25 +131,25 @@ export const Barbara = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
-							<Corazon /> x4
+							{artefactosComponents.Corazon}  x4
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-							<Errante />	x4
+							{artefactosComponents.Errante} 	x4
 
 							</div>
 							<div className="buildParticular__artefactos-item">
 
-							<Corazon />	x2
-							<Gladiador /> x2
+							{artefactosComponents.Corazon} x2
+							{artefactosComponents.Gladiador} x2
 
 							</div>
 							<div className="buildParticular__artefactos-item">
 
-							<Errante />	x2
-							<Gladiador /> x2
+							{artefactosComponents.Errante} 	x2
+							{artefactosComponents.Gladiador}  x2
 
 
 							</div>

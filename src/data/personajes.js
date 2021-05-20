@@ -6,6 +6,7 @@ export const personajes = [
 		weapon: "espada",
 		rol1: "Nuke",
 		rol2: "DPS",
+		
 	},
 	{
 		id: "2",
@@ -14,6 +15,7 @@ export const personajes = [
 		weapon: "arco",
 		rol1: "DPS",
 		rol2: "Nuke",
+		
 	},
 	{
 		id: "3",

@@ -1,4 +1,6 @@
 import React from "react";
+import { arcoComponents } from "../../helpers/arcoComponents";
+import { artefactosComponents } from "../../helpers/artefactosComponents";
 import { Footer } from "../Footer";
 
 
@@ -17,8 +19,9 @@ export const Amber = (props) => {
 
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
-
-
+			
+						{arcoComponents.Acorde}
+						
 
 						</div>
 						<div className="buildParticular__armas" >

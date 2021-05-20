@@ -1,4 +1,6 @@
 import React from "react";
+import { arcoComponents } from "../../helpers/arcoComponents";
+import { artefactosComponents } from "../../helpers/artefactosComponents";
 import { Footer } from "../Footer";
 
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Footer } from "../Footer";
-
+import { catalizadorComponents } from "../../helpers/catalizadorComponents";
+import { artefactosComponents } from "../../helpers/artefactosComponents";
 
 export const Mona = (props) => {
 	//Desestructurando props ya sabes... llegan del Link Dynamico (PersonajesBuild)
