@@ -1,10 +1,14 @@
 import React from "react";
 import { Footer } from "../Footer";
+import { artefactosComponents } from "../../helpers/artefactosComponents";
 
 
 export const Albedo = (props) => {
 	//Desestructurando props ya sabes... llegan del Link Dynamico (PersonajesBuild)
 	const {personaje} = props;
+
+	
+
 
 	return (
 		<>
@@ -17,7 +21,7 @@ export const Albedo = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						
 
 						</div>
 						<div className="buildParticular__armas" >
@@ -38,7 +42,7 @@ export const Albedo = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
-
+							
 							</div>
 
 							<div className="buildParticular__artefactos-item">

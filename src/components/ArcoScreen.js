@@ -9,7 +9,7 @@ import { Favonius } from './armasComponents/arcoComponents/Favonius'
 import { Herrumbre } from './armasComponents/arcoComponents/Herrumbre'
 import { Luna } from './armasComponents/arcoComponents/Luna'
 import { Oda } from './armasComponents/arcoComponents/Oda'
-import { Peñasco } from './armasComponents/arcoComponents/Peñasco'
+import { Penasco } from './armasComponents/arcoComponents/Penasco'
 import { Real } from './armasComponents/arcoComponents/Real'
 import { Sacrificio } from './armasComponents/arcoComponents/Sacrificio'
 
@@ -26,7 +26,7 @@ export const ArcoScreen = () => {
             <Herrumbre />
             <Luna />
             <Oda />
-            <Peñasco />
+            <Penasco />
             <Real />
             <Sacrificio />
         </div>

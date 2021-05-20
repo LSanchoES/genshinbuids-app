@@ -74,7 +74,10 @@ main {
 	);
 	overflow: hidden;
 	color: black;
+
 }
+
+//Card Flip (animation)
 .react-card-flipper{
 	overflow: hidden !important;
 }
@@ -87,10 +90,9 @@ main {
 //SCROLLBAR
 
 
-
 /* width */
 ::-webkit-scrollbar {
-	-webkit-appearance: none;
+
 	width: 10px;
 	border: 1px solid black;
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {arcoImages} from "../../../helpers/images";
 import ReactCardFlip from 'react-card-flip';
 
-export const Peñasco = () => {
+export const Penasco = () => {
     const [isFliped, setIsFliped] = useState(false)
     
     const handleClick = (e) => {
@@ -12,7 +12,7 @@ export const Peñasco = () => {
     return (
         <div>
             <ReactCardFlip isFlipped={isFliped} flipDirection="vertical">
-            <img src={arcoImages(`./Arco_del_Peñasco_Oscuro.png`).default}
+            <img src={arcoImages(`./Arco_del_Penasco_Oscuro.png`).default}
                 alt="Arco del Peñasco Oscuro"
                 className="armas__image"
                 onClick={handleClick}
