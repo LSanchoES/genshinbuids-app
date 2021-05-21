@@ -18,15 +18,19 @@ export const Fischl = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+							{arcoComponents.Alas}
+							{arcoComponents.Amos}
+							{arcoComponents.Elegia}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
-
-
+							{arcoComponents.Cazador}
+							{arcoComponents.Acorde}
+							{arcoComponents.Esmeralda}
+							{arcoComponents.Luna}
+							{arcoComponents.Herrumbre}
 						</div>
 
 				</div>
@@ -38,15 +42,21 @@ export const Fischl = (props) => {
 							{/* COMPONENTES DE ARTEFACTOS */}
 
 							<div className="buildParticular__artefactos-item">
-
+								{artefactosComponents.Gladiador}x2
+								{artefactosComponents.Furia}x2
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-
-
+								{artefactosComponents.Domador}x4
 							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+								{artefactosComponents.Furia}x4
+							</div>
+
 
 						</div>
 				</div>
@@ -59,8 +69,8 @@ export const Fischl = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
+						<p>Ataque</p>	
 						<p>Recarga de Energía</p>
-						<p>Ataque</p>
 
 
 					</div>	
@@ -70,7 +80,7 @@ export const Fischl = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Electro</p>
 
 
 					</div>	
@@ -89,7 +99,7 @@ export const Fischl = (props) => {
 						<p>% Ataque</p>
 						<p>Ataque</p>
 						<p>Recarga de energía</p>
-						
+						<p>Maestría Elemental</p>
 					</div>
 					</div>	
 				</div>
@@ -105,13 +115,18 @@ export const Fischl = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{arcoComponents.Alas}
+						{arcoComponents.Amos}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{arcoComponents.Esmeralda}
+						{arcoComponents.Luna}
+						{arcoComponents.Herrumbre}
+						{arcoComponents.Penasco}
+						{arcoComponents.Compuesto}
 
 
 						</div>
@@ -126,12 +141,28 @@ export const Fischl = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.LLamas}x4
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.LLamas}x2
+								{artefactosComponents.Caballeria}x2
 
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+								{artefactosComponents.LLamas}x2
+								{artefactosComponents.Gladiador}x2
+
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+								{artefactosComponents.Furia}x2
+								{artefactosComponents.Gladiador}x2
 
 							</div>
 
@@ -146,7 +177,6 @@ export const Fischl = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -157,7 +187,7 @@ export const Fischl = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Físico </p>
 
 
 					</div>	
@@ -173,9 +203,12 @@ export const Fischl = (props) => {
 						<h3>SubStats</h3>
 
 
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>% Ataque</p>
 						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Maestría Elemental</p>
 						
 					</div>
 					</div>	

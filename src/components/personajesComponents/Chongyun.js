@@ -19,13 +19,18 @@ export const Chongyun = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+							{claymoreComponents.Lapida}
+							{claymoreComponents.Orgullo}
+							
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+							{claymoreComponents.GranPenasco}
+							{claymoreComponents.Litica}
+							{claymoreComponents.Arcaico}
+							{claymoreComponents.Medula}
 
 
 						</div>
@@ -40,12 +45,27 @@ export const Chongyun = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.Nobleza}x4
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+								{artefactosComponents.Nomada}x2
+								{artefactosComponents.Nobleza}x2
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.Nomada}x2
+								{artefactosComponents.Gladiador}x2
 
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+								{artefactosComponents.Nobleza}x2
+								{artefactosComponents.Gladiador}x2
 
 							</div>
 
@@ -62,6 +82,7 @@ export const Chongyun = (props) => {
 
 						<p>Recarga de Energía</p>
 						<p>Ataque</p>
+						<p>Recarga de Energía</p>
 
 
 					</div>	
@@ -71,7 +92,7 @@ export const Chongyun = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Cryo</p>
 
 
 					</div>	
@@ -86,9 +107,10 @@ export const Chongyun = (props) => {
 					<div className="buildParticular__stat-item">
 						<h3>SubStats</h3>
 
-
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>% Ataque</p>
-						<p>Ataque</p>
+						<p>Maestría Elemental</p>
 						<p>Recarga de energía</p>
 						
 					</div>
@@ -106,14 +128,17 @@ export const Chongyun = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+							{claymoreComponents.Lapida}
+							{claymoreComponents.Orgullo}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
 
-
+							{claymoreComponents.GranSacrificio}
+							{claymoreComponents.GranFavonius}
+							{claymoreComponents.Arcaico}
 
 						</div>
 
@@ -127,12 +152,14 @@ export const Chongyun = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
-
+								{artefactosComponents.Nobleza}x4
+								
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Nobleza}x2
+							{artefactosComponents.Nomada}x2
 
 							</div>
 
@@ -147,7 +174,6 @@ export const Chongyun = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -158,7 +184,7 @@ export const Chongyun = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Cryo </p>
 
 
 					</div>	
@@ -174,9 +200,11 @@ export const Chongyun = (props) => {
 						<h3>SubStats</h3>
 
 
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	

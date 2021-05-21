@@ -18,13 +18,18 @@ export const Ganyu = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{arcoComponents.Amos}
+						{arcoComponents.Alas}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						
+						{arcoComponents.Penasco}
+						{arcoComponents.Luna}
+						{arcoComponents.Esmeralda}
+						{arcoComponents.Acorde}
 
 
 						</div>
@@ -39,14 +44,21 @@ export const Ganyu = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
-
+								{artefactosComponents.Errante}
 							</div>
-
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.Nomada}x2
+								{artefactosComponents.Gladiador}x2
+							</div>
+							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.Nomada}x4
 
 							</div>
+
+
+
 
 						</div>
 				</div>
@@ -59,7 +71,7 @@ export const Ganyu = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
+	
 						<p>Ataque</p>
 
 
@@ -70,7 +82,7 @@ export const Ganyu = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Cryo</p>
 
 
 					</div>	
@@ -86,8 +98,11 @@ export const Ganyu = (props) => {
 						<h3>SubStats</h3>
 
 
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>% Ataque</p>
 						<p>Ataque</p>
+						<p>Maestría Elemental</p>
 						<p>Recarga de energía</p>
 						
 					</div>
@@ -97,7 +112,7 @@ export const Ganyu = (props) => {
 			
 			{/* BUILD 2 */}
 			<div className="buildParticular__container">
-				<h1>{personaje.rol2}</h1>
+				<h1>{personaje.rol1}</h1>
 
 					{/* COMPONENTES DE ARMAS */}
 					<div className="buildParticular__armas-container">
@@ -105,13 +120,19 @@ export const Ganyu = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{arcoComponents.Alas}
+						{arcoComponents.Elegia}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						
+						{arcoComponents.Acorde}
+						{arcoComponents.Penasco}
+						{arcoComponents.Luna}
+						{arcoComponents.Real}
+						{arcoComponents.Esmeralda}
 
 
 						</div>
@@ -126,14 +147,22 @@ export const Ganyu = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
-
+								{artefactosComponents.Nobleza}x2
+								{artefactosComponents.Nomada}x2
 							</div>
-
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.Nomada}x2
+								{artefactosComponents.Gladiador}x2
+							</div>
+							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.Nobleza}x4
 
 							</div>
+
+
+
 
 						</div>
 				</div>
@@ -146,7 +175,7 @@ export const Ganyu = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
+	
 						<p>Ataque</p>
 
 
@@ -157,7 +186,7 @@ export const Ganyu = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Cryo</p>
 
 
 					</div>	
@@ -173,14 +202,18 @@ export const Ganyu = (props) => {
 						<h3>SubStats</h3>
 
 
+						<p>Recarga de energía</p>
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
+						<p>Maestría Elemental</p>
 						<p>% Ataque</p>
 						<p>Ataque</p>
-						<p>Recarga de energía</p>
 						
 					</div>
 					</div>	
 				</div>
 			</div>
+			
 			<Footer />
 		</>
 	);
