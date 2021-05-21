@@ -30,8 +30,8 @@ export const personajes = [
 		name: "Beidou",
 		element: "Electro",
 		weapon: "claymore",
-		rol1: "DPS",
-		rol2: "Apoyo",
+		rol1: "Apoyo",
+		rol2: "DPS",
 	},
 	{
 		id: "5",

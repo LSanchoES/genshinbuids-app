@@ -7,6 +7,8 @@ export const Albedo = (props) => {
 	//Desestructurando props ya sabes... llegan del Link Dynamico (PersonajesBuild)
 	const { personaje } = props;
 
+
+
 	return (
 		<>
 			<div className="buildParticular__container">
@@ -17,25 +19,17 @@ export const Albedo = (props) => {
 					<div className="buildParticular__armas">
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-						{espadaComponents.Aquila}
 						{espadaComponents.Cortador}
 						{espadaComponents.Rompemontanas}
-						{espadaComponents.Hoja}
+
 
 					</div>
 					<div className="buildParticular__armas">
 						<h2>Armas⭐⭐⭐⭐</h2>
 
-						{espadaComponents.EspadaFavonius}
-						{espadaComponents.EspadaSacrificio}
-
 						{espadaComponents.Deseo}
-
-						{espadaComponents.Flauta}
 						{espadaComponents.PenascoOsucro}
-						{espadaComponents.Descenso}
-						
-						{espadaComponents.Rugido}
+						{espadaComponents.Negra}
 						{espadaComponents.Espina}
 						{espadaComponents.Rencor}
 					</div>
@@ -46,9 +40,21 @@ export const Albedo = (props) => {
 					<div className="buildParticular__artefactos">
 						{/* COMPONENTES DE ARTEFACTOS */}
 
-						<div className="buildParticular__artefactos-item"></div>
+						<div className="buildParticular__artefactos-item">
+							{artefactosComponents.Petra}x2 {artefactosComponents.Nobleza}x2
+						</div>
 
-						<div className="buildParticular__artefactos-item"></div>
+						<div className="buildParticular__artefactos-item">
+							{artefactosComponents.Geoarmada}x4
+						</div>
+
+						<div className="buildParticular__artefactos-item">
+							{artefactosComponents.Petra}x4
+						</div>
+
+						<div className="buildParticular__artefactos-item">
+							{artefactosComponents.Nobleza}x4
+						</div>
 					</div>
 				</div>
 
@@ -58,27 +64,28 @@ export const Albedo = (props) => {
 						<div className="buildParticular__stat-item">
 							{/* INTRODUCIR STATS  <P> */}
 							<h3>Reloj</h3>
-
-							<p>Recarga de Energía</p>
-							<p>Ataque</p>
+							<p>Defensa</p>
 						</div>
 						<div className="buildParticular__stat-item">
 							<h3>Copa</h3>
 
-							<p>Bono daño </p>
+							<p>Bono daño Geo</p>
 						</div>
 						<div className="buildParticular__stat-item">
 							<h3>Casco</h3>
 
 							<p>Daño Crítico</p>
 							<p>Probabilidad de Crítico</p>
+							<p>Defensa</p>
 						</div>
 						<div className="buildParticular__stat-item">
 							<h3>SubStats</h3>
 
-							<p>% Ataque</p>
-							<p>Ataque</p>
+							<p>Probabilidad/Daño Crítico</p>
+							<p>% Defensa</p>
 							<p>Recarga de energía</p>
+							<p>Defensa</p>
+
 						</div>
 					</div>
 				</div>
@@ -92,6 +99,9 @@ export const Albedo = (props) => {
 				<div className="buildParticular__armas-container">
 					<div className="buildParticular__armas">
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
+						{espadaComponents.Cortador}
+						{espadaComponents.Rompemontanas}
+						{espadaComponents.Hoja}
 					</div>
 					<div className="buildParticular__armas">
 						<h2>Armas⭐⭐⭐⭐</h2>
@@ -103,9 +113,11 @@ export const Albedo = (props) => {
 					<div className="buildParticular__artefactos">
 						{/* COMPONENTES DE ARTEFACTOS */}
 
-						<div className="buildParticular__artefactos-item"></div>
+						<div className="buildParticular__artefactos-item">
+							{artefactosComponents.Gladiador}x2{artefactosComponents.Petra}x2
+						</div>
 
-						<div className="buildParticular__artefactos-item"></div>
+
 					</div>
 				</div>
 
@@ -115,27 +127,27 @@ export const Albedo = (props) => {
 						<div className="buildParticular__stat-item">
 							{/* INTRODUCIR STATS  <P> */}
 							<h3>Reloj</h3>
-
-							<p>Recarga de Energía</p>
-							<p>Ataque</p>
+							<p>Defensa</p>
 						</div>
 						<div className="buildParticular__stat-item">
 							<h3>Copa</h3>
 
-							<p>Bono daño </p>
+							<p>Bono daño Geo</p>
 						</div>
 						<div className="buildParticular__stat-item">
 							<h3>Casco</h3>
 
 							<p>Daño Crítico</p>
 							<p>Probabilidad de Crítico</p>
+							<p>Defensa</p>
 						</div>
 						<div className="buildParticular__stat-item">
 							<h3>SubStats</h3>
 
-							<p>% Ataque</p>
-							<p>Ataque</p>
+							<p>Probabilidad/Daño Crítico</p>
+							<p>% Defensa</p>
 							<p>Recarga de energía</p>
+							<p>Defensa</p>
 						</div>
 					</div>
 				</div>

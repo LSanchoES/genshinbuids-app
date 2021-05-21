@@ -2,6 +2,7 @@ import { Bruja } from "../components/artefactosComponents/Bruja";
 import { Caballeria } from "../components/artefactosComponents/Caballeria";
 import { Corazon } from "../components/artefactosComponents/Corazon";
 import { Corredor } from "../components/artefactosComponents/Corredor";
+import { Domador } from "../components/artefactosComponents/Domador";
 import { Doncella } from "../components/artefactosComponents/Doncella";
 import { Errante } from "../components/artefactosComponents/Errante";
 import { Furia } from "../components/artefactosComponents/Furia";
@@ -31,6 +32,7 @@ export  const artefactosComponents = {
     Nomada: <Nomada />,
     Petra: <Petra />,
     Retroceso: <Retroceso />,
-    Sombraverde: <Sombraverde />
+    Sombraverde: <Sombraverde />,
+    Domador: <Domador />,
 
 }

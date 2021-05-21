@@ -2,6 +2,7 @@ import { Arcaico } from "../components/armasComponents/claymoreComponents/Arcaic
 import { Argento } from "../components/armasComponents/claymoreComponents/Argento";
 import { Desidia } from "../components/armasComponents/claymoreComponents/Desidia";
 import { GranFavonius } from "../components/armasComponents/claymoreComponents/GranFavonius";
+import { GranPenasco } from "../components/armasComponents/claymoreComponents/GranPenasco";
 import { GranReal } from "../components/armasComponents/claymoreComponents/GranReal";
 import { GranSacrificio } from "../components/armasComponents/claymoreComponents/GranSacrificio";
 import { Lapida } from "../components/armasComponents/claymoreComponents/Lapida";
@@ -22,6 +23,7 @@ export const claymoreComponents ={
     GranFavonius:<GranFavonius/>,
     GranReal:<GranReal/>,
     GranSacrificio:<GranSacrificio/>,
+    GranPenasco: <GranPenasco />,
     Lapida:<Lapida/>,
     Litica:<Litica/>,
     Medula:<Medula/>,

@@ -20,15 +20,16 @@ export const Amber = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 			
-						{arcoComponents.Acorde}
+						{arcoComponents.Amos}
+						{arcoComponents.Alas}
 						
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
-
-
-
+						{arcoComponents.Luna}
+						{arcoComponents.Penasco}
+						{arcoComponents.Compuesto}
 
 						</div>
 
@@ -42,14 +43,16 @@ export const Amber = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Errante}x4			
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Bruja}x2{artefactosComponents.Errante}x2	
 
 							</div>
+
 
 						</div>
 				</div>
@@ -62,7 +65,6 @@ export const Amber = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -73,7 +75,7 @@ export const Amber = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Pyro </p>
 
 
 					</div>	
@@ -81,16 +83,16 @@ export const Amber = (props) => {
 						<h3>Casco</h3>
 
 						<p>Daño Crítico</p>
-						<p>Probabilidad de Crítico</p>
 
 
 					</div>	
 					<div className="buildParticular__stat-item">
 						<h3>SubStats</h3>
 
-
+						<p>Daño Crítico</p>
 						<p>% Ataque</p>
 						<p>Ataque</p>
+						<p>Maestría Elemental</p>
 						<p>Recarga de energía</p>
 						
 					</div>
@@ -108,13 +110,17 @@ export const Amber = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
+							{arcoComponents.Elegia}
 
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+							{arcoComponents.Cazador}
+							{arcoComponents.Acorde}
+							{arcoComponents.Favonius}
+							{arcoComponents.Sacrificio}
 
 
 						</div>
@@ -130,11 +136,13 @@ export const Amber = (props) => {
 							<div className="buildParticular__artefactos-item">
 
 
+							{artefactosComponents.Nobleza}x4
+
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Nobleza}x2{artefactosComponents.Bruja}x2
 
 							</div>
 
@@ -151,6 +159,7 @@ export const Amber = (props) => {
 
 						<p>Recarga de Energía</p>
 						<p>Ataque</p>
+						<p>Maestría Elemental</p>
 
 
 					</div>	
@@ -160,7 +169,7 @@ export const Amber = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Pyro</p>
 
 
 					</div>	
@@ -176,9 +185,11 @@ export const Amber = (props) => {
 						<h3>SubStats</h3>
 
 
-						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>% Ataque</p>
+						<p>Probabilidad/ Daño Crítico</p>
+						<p>Maestría Elemental</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	

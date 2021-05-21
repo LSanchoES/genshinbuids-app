@@ -19,13 +19,18 @@ export const Beidou = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{claymoreComponents.Lapida}
+						{claymoreComponents.Orgullo}
+						{claymoreComponents.Desidia}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{claymoreComponents.Medula}
+						{claymoreComponents.Litica}
+						{claymoreComponents.GranPenasco}
+						{claymoreComponents.Arcaico}
 
 
 						</div>
@@ -40,13 +45,21 @@ export const Beidou = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Furia}x2{artefactosComponents.Nobleza}x2
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Furia}x2{artefactosComponents.Gladiador}x2
+							</div>
+							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Nobleza}x4
+							</div>
+							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Domador}x4
 							</div>
 
 						</div>
@@ -61,7 +74,7 @@ export const Beidou = (props) => {
 						<h3>Reloj</h3>
 
 						<p>Recarga de Energía</p>
-						<p>Ataque</p>
+
 
 
 					</div>	
@@ -71,7 +84,7 @@ export const Beidou = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Electro </p>
 
 
 					</div>	
@@ -86,10 +99,12 @@ export const Beidou = (props) => {
 					<div className="buildParticular__stat-item">
 						<h3>SubStats</h3>
 
-
-						<p>% Ataque</p>
-						<p>Ataque</p>
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>Recarga de energía</p>
+						<p>Maestría Elemental</p>
+						<p>% Vida</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	
@@ -106,13 +121,19 @@ export const Beidou = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{claymoreComponents.Lapida}
+						{claymoreComponents.Orgullo}
+						{claymoreComponents.Desidia}
+						
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{claymoreComponents.Medula}
+						{claymoreComponents.Litica}
+						{claymoreComponents.GranPenasco}
+						{claymoreComponents.Arcaico}
 
 
 						</div>
@@ -127,11 +148,14 @@ export const Beidou = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Furia}x2{artefactosComponents.Gladiador}x2
+
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Caballeria}x2{artefactosComponents.Gladiador}x2
 
 
 							</div>
@@ -147,7 +171,6 @@ export const Beidou = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -158,7 +181,7 @@ export const Beidou = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Electro </p>
 
 
 					</div>	
@@ -174,9 +197,11 @@ export const Beidou = (props) => {
 						<h3>SubStats</h3>
 
 
-						<p>% Ataque</p>
-						<p>Ataque</p>
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>Recarga de energía</p>
+						<p>% Vida</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	
