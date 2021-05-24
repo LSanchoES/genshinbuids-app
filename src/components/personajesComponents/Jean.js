@@ -19,6 +19,10 @@ export const Jean = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
+						{espadaComponents.Hoja}
+						{espadaComponents.Cortador}
+						{espadaComponents.Aquila}
+						{espadaComponents.Rompemontanas}
 
 
 						</div>
@@ -26,7 +30,12 @@ export const Jean = (props) => {
 							<h2>Armas⭐⭐⭐⭐</h2>
 
 
-
+						{espadaComponents.Deseo}
+						{espadaComponents.Rugido}
+						{espadaComponents.Flauta}
+						{espadaComponents.PenascoOsucro}
+						{espadaComponents.EspadaFavonius}
+						{espadaComponents.EspadaSacrificio}
 
 						</div>
 
@@ -40,12 +49,25 @@ export const Jean = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.Sombraverde}x4
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.Nobleza}x4
 
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+								{artefactosComponents.Sombraverde}x2
+								{artefactosComponents.Gladiador}x2
+
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+								{artefactosComponents.Nobleza}x2
+								{artefactosComponents.Sombraverde}x2
 
 							</div>
 
@@ -60,8 +82,8 @@ export const Jean = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
+						<p>Recarga de Energía</p>
 
 
 					</div>	
@@ -71,7 +93,8 @@ export const Jean = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Anemo</p>
+						<p>Ataque</p>
 
 
 					</div>	
@@ -80,6 +103,7 @@ export const Jean = (props) => {
 
 						<p>Daño Crítico</p>
 						<p>Probabilidad de Crítico</p>
+						<p>Ataque</p>
 
 
 					</div>	
@@ -88,8 +112,9 @@ export const Jean = (props) => {
 
 
 						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Ataque</p>
+						<p>Maestría Elemental</p>
 						
 					</div>
 					</div>	
@@ -106,13 +131,21 @@ export const Jean = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
+							
+						{espadaComponents.Aquila}
+						{espadaComponents.Rompemontanas}
+						{espadaComponents.Cortador}
+						{espadaComponents.Hoja}
 
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{espadaComponents.PenascoOsucro}
+						{espadaComponents.Negra}
+						{espadaComponents.Rencor}
+						{espadaComponents.Flauta}
 
 
 						</div>
@@ -127,12 +160,14 @@ export const Jean = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Gladiador}x4
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Gladiador}x2
+							{artefactosComponents.Caballeria}x2
 
 							</div>
 
@@ -147,7 +182,6 @@ export const Jean = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -158,7 +192,7 @@ export const Jean = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Físico </p>
 
 
 					</div>	
@@ -173,10 +207,11 @@ export const Jean = (props) => {
 					<div className="buildParticular__stat-item">
 						<h3>SubStats</h3>
 
-
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	

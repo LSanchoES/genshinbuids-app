@@ -95,7 +95,7 @@ export const personajes = [
 		name: "Jean",
 		element: "Anemo",
 		weapon: "espada",
-		rol1: "Healer",
+		rol1: "Apoyo/Healer",
 		rol2: "DPS",
 	},
 	{

@@ -112,7 +112,7 @@ export const Ganyu = (props) => {
 			
 			{/* BUILD 2 */}
 			<div className="buildParticular__container">
-				<h1>{personaje.rol1}</h1>
+				<h1>{personaje.rol2}</h1>
 
 					{/* COMPONENTES DE ARMAS */}
 					<div className="buildParticular__armas-container">
