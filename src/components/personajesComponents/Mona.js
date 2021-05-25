@@ -18,13 +18,18 @@ export const Mona = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{catalizadorComponents.Pergamino}
+						{catalizadorComponents.Candado}
+						{catalizadorComponents.Oracion}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{catalizadorComponents.Sinfonia}
+						{catalizadorComponents.Perla}
+						{catalizadorComponents.Carta}
+						{catalizadorComponents.Codice}
 
 
 						</div>
@@ -39,12 +44,28 @@ export const Mona = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Nobleza}x2
+							{artefactosComponents.Corazon}x2
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Gladiador}x2
+							{artefactosComponents.Nobleza}x2
 
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Errante}x2
+							{artefactosComponents.Nobleza}x2
+
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Nobleza}x4
 
 							</div>
 
@@ -59,8 +80,9 @@ export const Mona = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
+						<p>Recarga de Energía</p>
+						<p>Maestría Elemental</p>
 
 
 					</div>	
@@ -70,7 +92,7 @@ export const Mona = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Hydro</p>
 
 
 					</div>	
@@ -86,9 +108,11 @@ export const Mona = (props) => {
 						<h3>SubStats</h3>
 
 
-						<p>% Ataque</p>
-						<p>Ataque</p>
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>Recarga de energía</p>
+						<p>% Ataque</p>
+						<p>Maestría Elemental</p>
 						
 					</div>
 					</div>	
@@ -96,8 +120,9 @@ export const Mona = (props) => {
 			</div>
 			
 			{/* BUILD 2 */}
+			
 			<div className="buildParticular__container">
-				<h1>{personaje.rol2}</h1>
+				<h1>{personaje.rol1}</h1>
 
 					{/* COMPONENTES DE ARMAS */}
 					<div className="buildParticular__armas-container">
@@ -105,13 +130,20 @@ export const Mona = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{catalizadorComponents.Pergamino}
+						{catalizadorComponents.Oracion}
+						{catalizadorComponents.Candado}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{catalizadorComponents.Sinfonia}
+						{catalizadorComponents.Perla}
+						{catalizadorComponents.Carta}
+						{catalizadorComponents.Agata}
+						{catalizadorComponents.Ojo}
+						{catalizadorComponents.Frio}
 
 
 						</div>
@@ -126,12 +158,35 @@ export const Mona = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Corazon}x4
+						
+
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Corazon}x2
+							{artefactosComponents.Gladiador}x2
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
 
+							{artefactosComponents.Corazon}x2
+							{artefactosComponents.Nobleza}x2
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+
+							{artefactosComponents.Corazon}x2
+							{artefactosComponents.Errante}x2
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Errante}x4
 
 							</div>
 
@@ -146,8 +201,10 @@ export const Mona = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
+						<p>Recarga de Energía</p>
+						<p>Maestría Elemental</p>
+
 
 
 					</div>	
@@ -157,7 +214,7 @@ export const Mona = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Hydro</p>
 
 
 					</div>	
@@ -173,9 +230,13 @@ export const Mona = (props) => {
 						<h3>SubStats</h3>
 
 
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
+
 						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Maestría Elemental</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	

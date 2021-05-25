@@ -1,8 +1,7 @@
 import React from "react";
-import { artefactosComponents } from "../../helpers/artefactosComponents";
-import { catalizadorComponents } from "../../helpers/catalizadorComponents";
 import { Footer } from "../Footer";
-
+import { catalizadorComponents } from "../../helpers/catalizadorComponents";
+import { artefactosComponents } from "../../helpers/artefactosComponents";
 
 export const Ningguang = (props) => {
 	//Desestructurando props ya sabes... llegan del Link Dynamico (PersonajesBuild)
@@ -10,6 +9,7 @@ export const Ningguang = (props) => {
 
 	return (
 		<>
+			
 			<div className="buildParticular__container">
 				<h1>{personaje.rol1}</h1>
 
@@ -19,13 +19,21 @@ export const Ningguang = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{catalizadorComponents.Candado}
+						{catalizadorComponents.Pergamino}
+						{catalizadorComponents.Oracion}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{catalizadorComponents.Sinfonia}
+						{catalizadorComponents.Perla}
+						{catalizadorComponents.Grimorio}
+						{catalizadorComponents.Ojo}
+						{catalizadorComponents.Agata}
+						{catalizadorComponents.Frio}
+						{catalizadorComponents.Carta}
 
 
 						</div>
@@ -40,13 +48,23 @@ export const Ningguang = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Petra}x2
+							{artefactosComponents.Gladiador}x2
+						
+
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Retroceso}x4
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
 
-
+							{artefactosComponents.Petra}x2
+							{artefactosComponents.Nobleza}x2
 							</div>
 
 						</div>
@@ -60,19 +78,16 @@ export const Ningguang = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
+
 
 
 					</div>	
 					<div className="buildParticular__stat-item">
 
 						<h3>Copa</h3>
-
-
 						
-						<p>Bono daño </p>
-
+						<p>Bono daño Geo</p>
 
 					</div>	
 					<div className="buildParticular__stat-item">
@@ -87,16 +102,18 @@ export const Ningguang = (props) => {
 						<h3>SubStats</h3>
 
 
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	
 				</div>
 			</div>
-			
-			{/* BUILD 2 */}
+
+
 			<div className="buildParticular__container">
 				<h1>{personaje.rol2}</h1>
 
@@ -106,12 +123,21 @@ export const Ningguang = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{catalizadorComponents.Pergamino}
+						{catalizadorComponents.Candado}
+						{catalizadorComponents.Oracion}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
+						{catalizadorComponents.Perla}
+						{catalizadorComponents.Sinfonia}
+						{catalizadorComponents.Carta}
+						{catalizadorComponents.Codice}
+						{catalizadorComponents.Ojo}
+						{catalizadorComponents.Agata}
+						{catalizadorComponents.Grimorio}
 
 
 
@@ -127,12 +153,29 @@ export const Ningguang = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Nobleza}x2
+							{artefactosComponents.Corazon}x2
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Nobleza}x2
+							{artefactosComponents.Petra}x2
 
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Gladiador}x2
+							{artefactosComponents.Petra}x2
+
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Nobleza}x2
+							{artefactosComponents.Gladiador}x2
 
 							</div>
 
@@ -147,7 +190,6 @@ export const Ningguang = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -158,7 +200,7 @@ export const Ningguang = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Geo</p>
 
 
 					</div>	
@@ -174,9 +216,10 @@ export const Ningguang = (props) => {
 						<h3>SubStats</h3>
 
 
-						<p>% Ataque</p>
-						<p>Ataque</p>
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>Recarga de energía</p>
+						<p>% Ataque</p>
 						
 					</div>
 					</div>	

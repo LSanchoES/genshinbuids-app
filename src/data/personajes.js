@@ -125,7 +125,7 @@ export const personajes = [
 	{
 		id: "16",
 		name: "Lisa",
-		element: "Hydro",
+		element: "Electro",
 		weapon: "catalizador",
 		rol1: "SubDPS",
 		rol2: "DPS",
