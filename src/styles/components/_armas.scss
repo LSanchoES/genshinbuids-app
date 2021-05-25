@@ -9,10 +9,13 @@
 	cursor: pointer;
 	transition: all 500ms;
 	margin: 1rem;
-	width: 6rem;
-	height: 6rem;
+	max-width: 6rem;
+	min-width: 6rem;
+	height: auto;
 	image-rendering:optimizeQuality;
     background-color: $primary-low;
+	img{ filter: drop-shadow(0px 0px 10px black);}
+	
 	&:hover {
 		transform: scale(0.9);
 	}
@@ -34,4 +37,8 @@
 	overflow: hidden;
 	padding: 3ch 1ch 3ch 1ch;
 	box-shadow: 2px 2px 5px $secondary;
+	transition: all 300ms;
+	&:hover{
+		transform: scale(1.1);
+	}
 }
