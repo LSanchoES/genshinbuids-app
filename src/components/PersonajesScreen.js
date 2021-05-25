@@ -83,7 +83,7 @@ export const PersonajesScreen = () => {
 				/>
 			</div>
 
-			
+			<div className="pS__selectores">
 				{elementosArray.map((items) => (
 					<div className="pS__selector-elementos animate__animated animate__fadeIn" 
 					key={items}>
@@ -108,7 +108,7 @@ export const PersonajesScreen = () => {
 					</div>
 				))}
 		
-
+			</div>
 			<div className="pS__personajes-div">
 				{listaPersonajes.map((personaje) => (
 					<Fragment key={personaje.id}>

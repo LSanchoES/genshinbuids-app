@@ -135,12 +135,20 @@ export const PersonajeBuild = (history) => {
                 </div>
             </div>
             <div className="personajeBuild__tip">
+
             <p><b>Las armas y artefactos están ordenados de mejor a peor opción(izquierda a derecha y arriba abajo)</b></p>
-            <p><i>Recuerda que es recomendable utilizar los personajes en su rol principal pero siempre puedes experimentar con distintas composiciones de equipo</i> 😊</p>
-            <p><i>Los roles se dividen en DPS (Daño por segundo) 
-                Apoyo (Ayudan a que el DPS haga más daño) 
+
+         
+                <p>Los roles se dividen en:
+                DPS (Daño por segundo) 
+                SubDPS(Hacen daño estando fuera de combate)
                 Nuke (Gran cantidad de daño en muy poco tiempo y rotar) 
-                Healers (Curanderos) </i></p>
+                Apoyo (Aportan utilidad a la batalla como más daño, escudos y otras habilidades) 
+                Healers (Curanderos)</p>
+         
+
+            <p><i>Recuerda que es recomendable utilizar los personajes en su rol principal pero siempre puedes experimentar con distintas composiciones de equipo</i> 😊</p>
+
             </div>
             <Dynamic personaje = {personaje} />
         </div>

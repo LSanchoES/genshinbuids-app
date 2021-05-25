@@ -33,20 +33,28 @@
         font-size: 1rem;
     }
 }
-
+.pS__selectores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 .pS__selector-elementos{
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
     background: #333;
     box-shadow: 1px 3px 5px #333 ;
-    border-radius: 50%;
+    border-radius: 100%;
     margin: 0.3rem;
     
     img{
         display: flex;
         flex-flow: row;
+        justify-content: center;
+        align-items: center;
         width: 2rem;
+        height: 2rem;
         margin: 1rem;
         cursor: pointer;
         background: #333;

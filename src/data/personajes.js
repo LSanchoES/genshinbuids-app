@@ -30,7 +30,7 @@ export const personajes = [
 		name: "Beidou",
 		element: "Electro",
 		weapon: "claymore",
-		rol1: "Apoyo",
+		rol1: "SubDPS",
 		rol2: "DPS",
 	},
 	{
@@ -70,7 +70,7 @@ export const personajes = [
 		name: "Fischl",
 		element: "Electro",
 		weapon: "arco",
-		rol1: "Apoyo",
+		rol1: "SubDPS",
 		rol2: "DPS",
 	},
 	{
@@ -103,8 +103,8 @@ export const personajes = [
 		name: "Kaeya",
 		element: "Cryo",
 		weapon: "espada",
-		rol1: "DPS",
-		rol2: "Apoyo",
+		rol1: "SubDPS",
+		rol2: "DPS",
 	},
 	{
 		id: "14",
@@ -127,7 +127,7 @@ export const personajes = [
 		name: "Lisa",
 		element: "Hydro",
 		weapon: "catalizador",
-		rol1: "Apoyo",
+		rol1: "SubDPS",
 		rol2: "DPS",
 	},
 	{
@@ -184,7 +184,7 @@ export const personajes = [
 		element: "Anemo",
 		weapon: "catalizador",
 		rol1: "Apoyo",
-		rol2: "Nuke",
+		rol2: "SubDPS/Nuke",
 	},
 	{
 		id: "24",
@@ -215,7 +215,7 @@ export const personajes = [
 		name: "Venti",
 		element: "Anemo",
 		weapon: "arco",
-		rol1: "Apoyo",
+		rol1: "Apoyo/SubDPS",
 		rol2: "DPS",
 	},
 	{
@@ -223,7 +223,7 @@ export const personajes = [
 		name: "Xiangling",
 		element: "Pyro",
 		weapon: "lanza",
-		rol1: "Apoyo",
+		rol1: "SubDPS",
 		rol2: "DPS",
 	},
 	{
@@ -239,7 +239,7 @@ export const personajes = [
 		name: "Xingqiu",
 		element: "Hydro",
 		weapon: "espada",
-		rol1: "Apoyo",
+		rol1: "SubDPS",
 		rol2: "Nuke",
 	},
 	{

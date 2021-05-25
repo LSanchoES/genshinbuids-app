@@ -19,6 +19,7 @@ export const Kaeya = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
+						{espadaComponents.Hoja}
 
 
 						</div>
@@ -26,7 +27,9 @@ export const Kaeya = (props) => {
 							<h2>Armas⭐⭐⭐⭐</h2>
 
 
-
+						{espadaComponents.Deseo}
+						{espadaComponents.EspadaFavonius}
+						{espadaComponents.EspadaSacrificio}
 
 						</div>
 
@@ -40,14 +43,17 @@ export const Kaeya = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.Nobleza}x4
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Nobleza}x2
+							{artefactosComponents.Nomada}x2
 
 							</div>
+
 
 						</div>
 				</div>
@@ -69,9 +75,8 @@ export const Kaeya = (props) => {
 
 						<h3>Copa</h3>
 
-
 						
-						<p>Bono daño </p>
+						<p>Bono daño Cryo</p>
 
 
 					</div>	
@@ -80,16 +85,19 @@ export const Kaeya = (props) => {
 
 						<p>Daño Crítico</p>
 						<p>Probabilidad de Crítico</p>
+						<p>Ataque</p>
 
 
 					</div>	
 					<div className="buildParticular__stat-item">
 						<h3>SubStats</h3>
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 
-
+						<p>Recarga de energía</p>
 						<p>% Ataque</p>
 						<p>Ataque</p>
-						<p>Recarga de energía</p>
+						<p>Maestría Elemental</p>
 						
 					</div>
 					</div>	
@@ -106,13 +114,19 @@ export const Kaeya = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
+							
+						{espadaComponents.Rompemontanas}
+						{espadaComponents.Cortador}
+						{espadaComponents.Hoja}
 
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{espadaComponents.PenascoOsucro}
+						{espadaComponents.Flauta}
+						{espadaComponents.Negra}
 
 
 						</div>
@@ -127,12 +141,25 @@ export const Kaeya = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Nomada}x4
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Gladiador}x4
 
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Gladiador}x2
+							{artefactosComponents.Nomada}x2
+
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Nobleza}x2
+							{artefactosComponents.Nomada}x2
 
 							</div>
 
@@ -147,7 +174,6 @@ export const Kaeya = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -158,7 +184,7 @@ export const Kaeya = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Cryo </p>
 
 
 					</div>	
@@ -173,10 +199,11 @@ export const Kaeya = (props) => {
 					<div className="buildParticular__stat-item">
 						<h3>SubStats</h3>
 
-
+						<p>Daño Crítico</p>
 						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Ataque</p>
+						<p>Probabilidad de Crítico</p>
 						
 					</div>
 					</div>	
