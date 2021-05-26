@@ -18,14 +18,9 @@ export const Barbara = (props) => {
 					<div className="buildParticular__armas-container">
 
 						<div className="buildParticular__armas" >
-						<h2>Armas⭐⭐⭐⭐⭐</h2>
-
-						
-						{catalizadorComponents.Cuentos} Es de 3 estrellas pero es la mejor para Barbara
-						</div>
-						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
+						{catalizadorComponents.Cuentos} (3⭐)
 						{catalizadorComponents.Prototipo}
 
 						</div>

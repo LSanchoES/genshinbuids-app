@@ -18,13 +18,17 @@ export const Tartaglia = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
-
+						{arcoComponents.Alas}
+						{arcoComponents.Amos}
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{arcoComponents.Esmeralda}
+						{arcoComponents.Herrumbre}
+						{arcoComponents.Luna}
+						{arcoComponents.Penasco}
+						{arcoComponents.Acorde}
 
 
 						</div>
@@ -39,12 +43,35 @@ export const Tartaglia = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.Corazon}x4
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.Gladiador}x2
+								{artefactosComponents.Corazon}x2
 
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+								{artefactosComponents.Nobleza}x2
+								{artefactosComponents.Corazon}x2
+
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+								{artefactosComponents.Nobleza}x2
+								{artefactosComponents.Gladiador}x2
+
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+								{artefactosComponents.Nobleza}x2
+								{artefactosComponents.Errante}x2
 
 							</div>
 
@@ -59,7 +86,6 @@ export const Tartaglia = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -70,7 +96,7 @@ export const Tartaglia = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Hydro </p>
 
 
 					</div>	
@@ -85,10 +111,11 @@ export const Tartaglia = (props) => {
 					<div className="buildParticular__stat-item">
 						<h3>SubStats</h3>
 
-
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
+						<p>Maestría Elemental</p>
 						<p>% Ataque</p>
 						<p>Ataque</p>
-						<p>Recarga de energía</p>
 						
 					</div>
 					</div>	
@@ -105,13 +132,17 @@ export const Tartaglia = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{arcoComponents.Alas}
+						{arcoComponents.Amos}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
-
-
+							{arcoComponents.Acorde}
+							{arcoComponents.Cazador}
+							{arcoComponents.Esmeralda}
+							{arcoComponents.Luna}
+							{arcoComponents.Oda}
 
 
 						</div>
@@ -125,16 +156,22 @@ export const Tartaglia = (props) => {
 							{/* COMPONENTES DE ARTEFACTOS */}
 
 							<div className="buildParticular__artefactos-item">
-
+								{artefactosComponents.Nobleza}x2
+								{artefactosComponents.Corazon}x2
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
-
-
+								{artefactosComponents.Nobleza}x2
+								{artefactosComponents.Errante}x2
 
 							</div>
 
+							<div className="buildParticular__artefactos-item">
+								{artefactosComponents.Nobleza}x2
+								{artefactosComponents.Gladiador}x2
+
+							</div>
 						</div>
 				</div>
 
@@ -146,8 +183,8 @@ export const Tartaglia = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
+						<p>Maestría Elemental</p>
 
 
 					</div>	
@@ -157,7 +194,7 @@ export const Tartaglia = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Hydro </p>
 
 
 					</div>	
@@ -173,9 +210,12 @@ export const Tartaglia = (props) => {
 						<h3>SubStats</h3>
 
 
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>% Ataque</p>
-						<p>Ataque</p>
+						<p>Maestría Elemental</p>
 						<p>Recarga de energía</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	

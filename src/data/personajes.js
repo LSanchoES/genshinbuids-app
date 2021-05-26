@@ -55,14 +55,14 @@ export const personajes = [
 		element: "Pyro",
 		weapon: "claymore",
 		rol1: "DPS",
-		rol2: "Nuke",
+		rol2: "DPS",
 	},
 	{
 		id: "8",
 		name: "Diona",
 		element: "Cryo",
 		weapon: "arco",
-		rol1: "Apoyo/Healer",
+		rol1: "Apoyo",
 		rol2: "Healer",
 	},
 	{
@@ -88,7 +88,7 @@ export const personajes = [
 		element: "Pyro",
 		weapon: "lanza",
 		rol1: "DPS",
-		rol2: "Nuke",
+		rol2: "DPS",
 	},
 	{
 		id: "12",
@@ -151,7 +151,7 @@ export const personajes = [
 		name: "Noelle",
 		element: "Geo",
 		weapon: "claymore",
-		rol1: "Healer",
+		rol1: "Healer/Apoyo",
 		rol2: "DPS",
 	},
 	{
@@ -159,7 +159,7 @@ export const personajes = [
 		name: "Qiqi",
 		element: "Cryo",
 		weapon: "espada",
-		rol1: "Healer",
+		rol1: "Apoyo/Healer",
 		rol2: "DPS",
 	},
 	{
@@ -168,7 +168,7 @@ export const personajes = [
 		element: "Electro",
 		weapon: "claymore",
 		rol1: "DPS",
-		rol2: "Nuke",
+		rol2: "DPS",
 	},
 	{
 		id: "22",
@@ -184,7 +184,7 @@ export const personajes = [
 		element: "Anemo",
 		weapon: "catalizador",
 		rol1: "Apoyo",
-		rol2: "SubDPS/Nuke",
+		rol2: "DPS",
 	},
 	{
 		id: "24",

@@ -5,6 +5,7 @@ import { Codice } from "../components/armasComponents/catalizadorComponents/Codi
 import { Cuentos } from "../components/armasComponents/catalizadorComponents/Cuentos";
 import { Frio } from "../components/armasComponents/catalizadorComponents/Frio";
 import { Grimorio } from "../components/armasComponents/catalizadorComponents/Grimorio";
+import { Memorias } from "../components/armasComponents/catalizadorComponents/Memorias";
 import { Ojo } from "../components/armasComponents/catalizadorComponents/Ojo";
 import { Oracion } from "../components/armasComponents/catalizadorComponents/Oracion";
 import { Pergamino } from "../components/armasComponents/catalizadorComponents/Pergamino";
@@ -29,7 +30,8 @@ export const catalizadorComponents = {
     Perla: <Perla />,
     Prototipo: <Prototipo />,
     Sinfonia: <Sinfonia />,
-    Vino: <Vino />
+    Vino: <Vino />,
+    Memorias: <Memorias />,
 
 
 }

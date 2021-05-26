@@ -18,14 +18,20 @@ export const Rosaria = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{lanzaComponents.Halcon}
+						{lanzaComponents.Perforanubes}
+						{lanzaComponents.Baculo}
+						{lanzaComponents.Pua}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
-
+						{lanzaComponents.Duelo}
+						{lanzaComponents.LanzaPenasco}
+						{lanzaComponents.LanzaLitica}
+						{lanzaComponents.Estelar}
+						{lanzaComponents.EspinaDragon}
 
 						</div>
 
@@ -39,15 +45,20 @@ export const Rosaria = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Nomada}x4
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Gladiador}x4
 
 							</div>
+							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Nomada}x2
+							{artefactosComponents.Gladiador}x2
+
+							</div>
 						</div>
 				</div>
 
@@ -59,7 +70,6 @@ export const Rosaria = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -70,7 +80,7 @@ export const Rosaria = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Cryo</p>
 
 
 					</div>	
@@ -86,9 +96,10 @@ export const Rosaria = (props) => {
 						<h3>SubStats</h3>
 
 
+						<p>Daño Crítico</p>
 						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	
@@ -105,14 +116,17 @@ export const Rosaria = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{lanzaComponents.Baculo}
+						{lanzaComponents.Halcon}
+						{lanzaComponents.Pua}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
-
+						{lanzaComponents.LanzaPenasco}
+						{lanzaComponents.LanzaLitica}
+						{lanzaComponents.LanzaFavonius}
 
 						</div>
 
@@ -126,15 +140,15 @@ export const Rosaria = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Nobleza}x4
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Nomada}x2
+							{artefactosComponents.Nobleza}x2
 
 							</div>
-
 						</div>
 				</div>
 
@@ -146,8 +160,8 @@ export const Rosaria = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
+						<p>Recarga de Energía</p>
 
 
 					</div>	
@@ -157,7 +171,7 @@ export const Rosaria = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Cryo</p>
 
 
 					</div>	
@@ -173,9 +187,10 @@ export const Rosaria = (props) => {
 						<h3>SubStats</h3>
 
 
-						<p>% Ataque</p>
-						<p>Ataque</p>
+						<p>Daño Crítico</p>
+						<p>Maestría Elemental</p>
 						<p>Recarga de energía</p>
+						<p>% Ataque</p>
 						
 					</div>
 					</div>	

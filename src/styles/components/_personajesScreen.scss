@@ -15,20 +15,20 @@
     height: 5vh;
     margin-bottom: 2rem;
     overflow: hidden;
-    color:#333;
+    color:$dark-gray;
     font-weight: bold;
     align-items: center;
     padding: 0.5rem;
     input{
-        border: 1px solid #333;
+        border: 1px solid $dark-gray;
         border-radius: 12px;
         width: 50%;
         height: 100%;
         overflow: hidden;
-        box-shadow: 0px 2px 5px #333 ;
+        box-shadow: 0px 2px 5px $dark-gray ;
         outline: none;
         padding-left: 1rem;
-        color:#333;
+        color:$dark-gray;
         font-weight: bold;
         font-size: 1rem;
     }
@@ -38,13 +38,14 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .pS__selector-elementos{
     display: flex;
     flex-wrap: wrap;
     flex-flow: row;
-    background: #333;
-    box-shadow: 1px 3px 5px #333 ;
+    background: $dark-gray;
+    box-shadow: 1px 3px 5px $dark-gray ;
     border-radius: 100%;
     margin: 0.3rem;
     
@@ -57,7 +58,7 @@
         height: 2rem;
         margin: 1rem;
         cursor: pointer;
-        background: #333;
+        background: $dark-gray;
         transition: all 400ms;
         padding: 0.2rem;
         image-rendering:optimizeQuality;
@@ -72,8 +73,8 @@
 .pS__selector-armas{
     display: flex;
     flex-direction: row;
-    background: lighten($color: #333, $amount: 10);
-    box-shadow: 1px 3px 5px #333 ;
+    background: lighten($color: $dark-gray, $amount: 10);
+    box-shadow: 1px 3px 5px $dark-gray ;
     padding: 0.2rem;
     border-radius: 50%;
     margin: 0.3rem;
@@ -82,7 +83,7 @@
         width: 2.3rem;
         margin: 1rem;
         cursor: pointer;
-        background: lighten($color: #333, $amount: 10);
+        background: lighten($color: $dark-gray, $amount: 10);
         image-rendering:optimizeQuality;
         transition: all 400ms;
         &:hover{
@@ -112,7 +113,7 @@
     height: 15rem;
     margin: 1rem;
     background-color: #fff;
-    filter: drop-shadow(1px 5px 5px #333 );
+    filter: drop-shadow(1px 5px 5px $dark-gray );
     cursor: pointer;
     transition: all 400ms;
     

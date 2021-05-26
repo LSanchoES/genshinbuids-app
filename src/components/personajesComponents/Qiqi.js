@@ -19,13 +19,16 @@ export const Qiqi = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{espadaComponents.Hoja}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{espadaComponents.EspadaSacrificio}
+						{espadaComponents.Flauta}
+						{espadaComponents.EspadaFavonius}
+						{espadaComponents.Deseo}
 
 
 						</div>
@@ -39,13 +42,27 @@ export const Qiqi = (props) => {
 							{/* COMPONENTES DE ARTEFACTOS */}
 
 							<div className="buildParticular__artefactos-item">
+							
 
+							{artefactosComponents.Doncella}x4						
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Doncella}x2
+							{artefactosComponents.Gladiador}x2
 
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Geoarmada}x4
+
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Nobleza}x4
 
 							</div>
 
@@ -60,8 +77,8 @@ export const Qiqi = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
+						<p>Recarga de Energía</p>
 
 
 					</div>	
@@ -71,15 +88,15 @@ export const Qiqi = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Ataque</p>
 
 
 					</div>	
 					<div className="buildParticular__stat-item">
 						<h3>Casco</h3>
 
-						<p>Daño Crítico</p>
-						<p>Probabilidad de Crítico</p>
+						<p>Ataque</p>
+						<p>Bono Curación</p>
 
 
 					</div>	
@@ -106,13 +123,19 @@ export const Qiqi = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
+						{espadaComponents.Aquila}
+						{espadaComponents.Hoja}
+						{espadaComponents.Rompemontanas}
 
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{espadaComponents.Negra}
+						{espadaComponents.PenascoOsucro}
+						{espadaComponents.Flauta}
+						{espadaComponents.Rencor}
 
 
 						</div>
@@ -127,12 +150,13 @@ export const Qiqi = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.LLamas}x2
+							{artefactosComponents.Caballeria}x2
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Gladiador}x4
 
 							</div>
 
@@ -147,7 +171,6 @@ export const Qiqi = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -158,7 +181,7 @@ export const Qiqi = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Físico </p>
 
 
 					</div>	
@@ -174,9 +197,12 @@ export const Qiqi = (props) => {
 						<h3>SubStats</h3>
 
 
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
+
 						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	
