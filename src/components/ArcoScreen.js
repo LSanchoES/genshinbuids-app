@@ -12,10 +12,14 @@ import { Oda } from './armasComponents/arcoComponents/Oda'
 import { Penasco } from './armasComponents/arcoComponents/Penasco'
 import { Real } from './armasComponents/arcoComponents/Real'
 import { Sacrificio } from './armasComponents/arcoComponents/Sacrificio'
-
+import { Footer } from './Footer'
+import { Header } from './Header'
+import { NavbarUi } from './NavbarUi'
 export const ArcoScreen = () => {
     return (
         <div>
+            			<Header />
+			<NavbarUi />
             <Acorde />
             <Alas />
             <Amos />
@@ -29,6 +33,7 @@ export const ArcoScreen = () => {
             <Penasco />
             <Real />
             <Sacrificio />
+            <Footer />
         </div>
     )
 }

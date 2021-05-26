@@ -12,10 +12,14 @@ import { Perdicion } from './armasComponents/lanzaComponents/Perdicion'
 import { Perforanubes } from './armasComponents/lanzaComponents/Perforanubes'
 import { Pica } from './armasComponents/lanzaComponents/Pica'
 import { Pua } from './armasComponents/lanzaComponents/Pua'
-
+import { Footer } from './Footer'
+import { Header } from './Header'
+import { NavbarUi } from './NavbarUi'
 export const LanzaScreen = () => {
     return (
         <div>
+            			<Header />
+			<NavbarUi />
             <Baculo/>
             <Caza/>
             <Duelo/>
@@ -29,6 +33,7 @@ export const LanzaScreen = () => {
             <Perforanubes/>
             <Pica/>
             <Pua/>
+            <Footer />
         </div>
     )
 }

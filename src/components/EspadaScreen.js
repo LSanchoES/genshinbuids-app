@@ -12,10 +12,14 @@ import { PenascoOscuro } from './armasComponents/espadaComponents/PenascoOscuro'
 import { Rencor } from './armasComponents/espadaComponents/Rencor'
 import { Rompemontanas } from './armasComponents/espadaComponents/Rompemontanas'
 import { Rugido } from './armasComponents/espadaComponents/Rugido'
-
+import { Footer } from './Footer'
+import { Header } from './Header'
+import { NavbarUi } from './NavbarUi'
 export const EspadaScreen = () => {
     return (
         <div>
+            			<Header />
+			<NavbarUi />
             <Aquila />
             <Cortador/>
             <Descenso/>
@@ -29,6 +33,7 @@ export const EspadaScreen = () => {
             <Rencor/>
             <Rompemontanas/>
             <Rugido/>
+            <Footer />
         </div>
     )
 }

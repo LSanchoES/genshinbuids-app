@@ -13,10 +13,14 @@ import { Pinos } from './armasComponents/claymoreComponents/Pinos'
 import { Segadora } from './armasComponents/claymoreComponents/Segadora'
 import { Sombra } from './armasComponents/claymoreComponents/Sombra'
 import { Tiempo } from './armasComponents/claymoreComponents/Tiempo'
-
+import { Footer } from './Footer'
+import { Header } from './Header'
+import { NavbarUi } from './NavbarUi'
 export const ClaymoreScreen = () => {
     return (
         <div>
+            			<Header />
+			<NavbarUi />
             <Arcaico />
             <Argento />
             <Desidia />
@@ -31,6 +35,7 @@ export const ClaymoreScreen = () => {
             <Sombra />
             <Tiempo /> 
             <GranPenasco />
+            <Footer />
         </div>
     )
 }

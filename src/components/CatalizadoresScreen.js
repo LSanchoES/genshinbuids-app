@@ -14,11 +14,16 @@ import { Perla } from './armasComponents/catalizadorComponents/Perla'
 import { Prototipo } from './armasComponents/catalizadorComponents/Prototipo'
 import { Sinfonia } from './armasComponents/catalizadorComponents/Sinfonia'
 import { Vino } from './armasComponents/catalizadorComponents/Vino'
+import { Footer } from './Footer'
+import { Header } from './Header'
+import { NavbarUi } from './NavbarUi'
 
 export const CatalizadoresScreen = () => {
     
     return (
         <div>
+            <Header />
+            <NavbarUi />
            <Agata />
            <Candado/> 
            <Carta />
@@ -34,6 +39,7 @@ export const CatalizadoresScreen = () => {
            <Prototipo />
            <Sinfonia />
            <Vino />
+        <Footer />
         </div>
     )
 }

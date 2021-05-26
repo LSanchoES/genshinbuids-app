@@ -14,11 +14,16 @@ import { Nobleza } from "./artefactosComponents/Nobleza";
 import { Petra } from "./artefactosComponents/Petra";
 import { Retroceso } from "./artefactosComponents/Retroceso";
 import { Sombraverde } from "./artefactosComponents/Sombraverde";
+import { Footer } from "./Footer";
+import { Header } from "./Header";
+import { NavbarUi } from "./NavbarUi";
 
 
 export const ArtefactosScreen = () => {
 	return (
 		<div>
+			<Header />
+			<NavbarUi />
 			<Bruja/>
 			<Caballeria/>
 			<Corazon/>
@@ -34,6 +39,7 @@ export const ArtefactosScreen = () => {
 			<Petra/>
 			<Retroceso/>
 			<Sombraverde/>
+			<Footer />
 		</div>
 	);
 };
