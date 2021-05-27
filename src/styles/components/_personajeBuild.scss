@@ -79,15 +79,16 @@
     display: flex;
     box-shadow: -2px -2px 5px $dark-gray inset;
     border-radius: 12px;
-    padding: 1rem;
+  
     margin: 1rem;
     p{
         margin: 1rem;
+        text-align: center;
     }
 }
 
 
-@media (max-width:450px){
+@media (max-width:710px){
 
     .personajeBuild__name{
         width: 100%;

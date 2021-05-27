@@ -17,8 +17,8 @@ export const NavbarUi = () => {
 				<Link to='/arcos'><h5>Arcos</h5></Link>
 			</Collapsible>
 
-			{/* <h5>Videos</h5> */}
-			<h5>Discord</h5>
+			<Link to='/discord'><h5>Discord</h5></Link>
+
 		</div>
 
 		<div className="navbar__container-small">
@@ -31,8 +31,9 @@ export const NavbarUi = () => {
 			<Link to='/espadas'><h5>Espadas</h5></Link>
 			<Link to='/lanzas'><h5>Lanzas</h5></Link>
 			<Link to='/arcos'><h5>Arcos</h5></Link>
-			{/* <h5>Videos</h5> */}
-			<h5>Discord</h5>
+			<Link to='/discord'><h5>Discord</h5></Link>
+
+
 		
 		</Collapsible>
 		</div>

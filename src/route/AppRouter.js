@@ -8,10 +8,12 @@ import { ArcoScreen } from '../components/ArcoScreen';
 import { ArtefactosScreen } from '../components/ArtefactosScreen';
 import { CatalizadoresScreen } from '../components/CatalizadoresScreen';
 import { ClaymoreScreen } from '../components/ClaymoreScreen';
+import { Discord } from '../components/Discord';
 import { EspadaScreen } from '../components/EspadaScreen';
 import { LanzaScreen } from '../components/LanzaScreen';
 import { PersonajeBuild } from '../components/PersonajeBuild';
 import { PersonajesScreen } from '../components/PersonajesScreen';
+import { Privacidad } from '../components/Privacidad';
 
 
 
@@ -29,6 +31,8 @@ export const AppRouter = () => {
                     <Route exact path="/espadas" component={ EspadaScreen } />
                     <Route exact path="/claymores" component={ ClaymoreScreen } />
                     <Route exact path="/arcos" component={ ArcoScreen } />
+                    <Route exact path="/privacidad" component={ Privacidad } />
+                    <Route exact path="/discord" component={ Discord } />
                     <Route exact path="/personaje/:personajeName" component={ PersonajeBuild } />
                 </Switch>
             </div>
