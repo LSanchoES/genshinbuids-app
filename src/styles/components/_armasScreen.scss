@@ -1,0 +1,35 @@
+.armasScreen__sections{
+    justify-content: center;
+    align-items: center;
+    section{
+        &:first-child{
+            text-align: center;
+            font-size: 2ch;
+            position: relative;
+            margin-bottom: 3rem;
+            
+        }
+        &:nth-child(2){
+            margin-bottom: 2rem;
+        }
+    }
+}
+.armasScreen-title{
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: -2px -2px 5px $primary inset;
+    padding: 1rem;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+@media (max-width:500px){
+    .armasScreen-title{
+
+        width: 80vw;
+    }
+}

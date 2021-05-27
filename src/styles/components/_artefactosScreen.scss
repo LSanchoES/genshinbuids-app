@@ -1,6 +1,6 @@
 .artefactosScreen__container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
     h1{
@@ -10,23 +10,56 @@
         margin-top: 1rem;
     }
 }
-
+.artefactosScreen-title{
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: -2px -2px 5px $primary inset;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.artefactosScreen__tip{
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 2.5ch;
+    box-shadow: -2px -2px 5px $secondary inset;
+    border-radius: 12px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 .artefactosScreen__card{
     display: flex;
-    width: 30vw;
+    width: 20vw;
+    min-height: 80vh;
     flex-direction: row;
     border-radius: 12px;
-    box-shadow: 2px 2px 5px $dark-gray inset;
+    box-shadow: -2px -2px 5px $dark-gray inset;
     margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1rem;
     font-size: 2ch;
     font-weight: bold;
     color: $dark-gray;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items:flex-start;
+
     h3{
         color: $primary;
+        margin-bottom: 0.5rem;
+    }
+    p{
+        margin-bottom: 1rem;
+
     }
 }
 .artefactosScreen__sections{
@@ -36,6 +69,28 @@
         &:first-child{
             text-align: center;
             font-size: 6ch;
+            position: relative;
+            margin-bottom: 3rem;
+            
         }
+        &:nth-child(2){
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+@media (max-width: 1000px){
+    .artefactosScreen__card{
+        width: 30vw;
+    }
+}
+@media (max-width: 650px){
+    .artefactosScreen__card{
+        width: 50vw;
+        min-height: 70vh;
+    }
+    .artefactosScreen-title{
+
+        width: 60vw;
     }
 }

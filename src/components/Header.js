@@ -6,7 +6,7 @@ export const Header = () => {
     const heading = useRef()
 
     return (
-		<div className="pS__container animate__animated animate__fadeIn"
+		<div className="pS__container"
            ref={heading}
         >
 			<h1 className="head__title">GenshinBuilds</h1>

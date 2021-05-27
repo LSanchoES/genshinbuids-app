@@ -19,7 +19,7 @@ export const Corazon = () => {
             <p onClick={handleClick}
                 className="artefactos__text"
             >
-                Corazón de las pro- fundidades  
+                Corazón de las profundidades  
             </p>
             </ReactCardFlip>
         </div>
