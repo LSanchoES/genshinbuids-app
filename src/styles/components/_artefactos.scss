@@ -7,10 +7,15 @@
     overflow: hidden;
     box-sizing: padding-box; 
     cursor: pointer;
-    width: 4rem;
     transition: all 500ms;
     margin: 1rem;
-    image-rendering:optimizeQuality;
+
+    width:5rem;
+	height:5rem;
+	object-fit:contain;
+	object-position:50% 50%;
+
+	image-rendering:crisp-edges;
     background-color: $primary-low;
     
     &:hover{

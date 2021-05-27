@@ -21,10 +21,39 @@ import { NavbarUi } from "./NavbarUi";
 
 export const ArtefactosScreen = () => {
 	return (
-		<div>
+		<>
 			<Header />
 			<NavbarUi />
-			<Bruja/>
+
+			<div className="artefactosScreen__container">
+			
+			<div className="artefactosScreen__card">
+				<div className="artefactosScreen__sections">
+					<section>
+					<Bruja/>
+					</section>
+				<section>
+					<h3>2 Piezas</h3>
+					<p>
+						bkjasdbkjasbfljasbfkjlasbfkasbfkas
+						jbfbkjasbfkjasbfkabkfbajskbfakjsb
+						fkjasbfkjas
+					</p>
+				</section>
+				<section>
+					<h3>4 Piezas</h3>
+					<p>
+						ñsmfñlasmfñlkasmflñasm
+						asmssssssssssssssss
+						sssssssssssssssssssssssssssssssss
+						ssssssssssssssssssnñafnñagnñaskgnñaksgn
+						ñaskngñaksngñasngñasgnñkasgnañskngñasnfñka
+						snñfknasñnaljdsf
+						,na fkajfbqwkj
+					</p>
+				</section>
+				</div>
+			</div>
 			<Caballeria/>
 			<Corazon/>
 			<Corredor/>
@@ -39,7 +68,8 @@ export const ArtefactosScreen = () => {
 			<Petra/>
 			<Retroceso/>
 			<Sombraverde/>
+			</div>
 			<Footer />
-		</div>
+		</>
 	);
 };
