@@ -9,6 +9,7 @@ import {
 import {Link} from "react-router-dom";
 import { NavbarUi } from "./NavbarUi";
 import { Header } from "./Header";
+import { Footer } from "./Footer";
 
 
 export const PersonajesScreen = () => {
@@ -75,6 +76,7 @@ export const PersonajesScreen = () => {
 		<div className="pS__container  ">
 			<Header />
 			<NavbarUi />
+
 			<div className="pS__form animate__animated animate__fadeIn">
 				<input
 					onChange={handleInputChange}
@@ -110,6 +112,7 @@ export const PersonajesScreen = () => {
 		
 			</div>
 			<div className="pS__personajes-div">
+
 				{listaPersonajes.map((personaje) => (
 					<Fragment key={personaje.id}>
 					
@@ -137,6 +140,7 @@ export const PersonajesScreen = () => {
 				))}
 			</div>
 		</div>	
+		<Footer />
 		</>
 	);
 };

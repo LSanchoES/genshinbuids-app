@@ -20,12 +20,24 @@ export const Xinyan = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{claymoreComponents.Orgullo}
+						{claymoreComponents.Desidia}
+						{claymoreComponents.Lapida}
+						{claymoreComponents.Pinos}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
+						{claymoreComponents.Medula}
+						{claymoreComponents.Argento}
+						{claymoreComponents.Arcaico}
+						{claymoreComponents.Litica}
+						{claymoreComponents.Sombra}
+						{claymoreComponents.GranPenasco}
+						{claymoreComponents.GranReal}
+						{claymoreComponents.GranSacrificio}
+						{claymoreComponents.GranFavonius}
 
 
 
@@ -41,15 +53,36 @@ export const Xinyan = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+								{artefactosComponents.LLamas}x2
+								{artefactosComponents.Caballeria}x2
+
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+								{artefactosComponents.Retroceso}x4
+
+							</div>
+
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Gladiador}x4
+
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+
+							{artefactosComponents.Gladiador}x2
+							{artefactosComponents.Caballeria}x2
+
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Caballeria}x4
 
 							</div>
-
 						</div>
 				</div>
 
@@ -61,7 +94,6 @@ export const Xinyan = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -72,7 +104,7 @@ export const Xinyan = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Físico </p>
 
 
 					</div>	
@@ -88,9 +120,13 @@ export const Xinyan = (props) => {
 						<h3>SubStats</h3>
 
 
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
+
 						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Ataque</p>
+						<p>% Defensa</p>
 						
 					</div>
 					</div>	
@@ -107,12 +143,16 @@ export const Xinyan = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{claymoreComponents.Orgullo}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
+							{claymoreComponents.GranSacrificio}
+							{claymoreComponents.Arcaico}
+							{claymoreComponents.Sombra}
+							{claymoreComponents.GranFavonius}
 
 
 
@@ -128,14 +168,17 @@ export const Xinyan = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Nobleza}x4
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
-
+							{artefactosComponents.Caballeria}x2
+							{artefactosComponents.Nobleza}x2
 
 							</div>
+
 
 						</div>
 				</div>
@@ -148,8 +191,9 @@ export const Xinyan = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
+						<p>Defensa</p>
 						<p>Ataque</p>
+						<p>Recarga de Energía</p>
 
 
 					</div>	
@@ -159,26 +203,29 @@ export const Xinyan = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Físico</p>
+						<p>Defensa</p>
 
 
 					</div>	
 					<div className="buildParticular__stat-item">
 						<h3>Casco</h3>
-
+						
+						<p>Defensa</p>
 						<p>Daño Crítico</p>
 						<p>Probabilidad de Crítico</p>
-
 
 					</div>	
 					<div className="buildParticular__stat-item">
 						<h3>SubStats</h3>
 
-
-						<p>% Ataque</p>
-						<p>Ataque</p>
-						<p>Recarga de energía</p>
 						
+						<p>% Defensa</p>
+						<p>% Ataque</p>
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
+						<p>Recarga de energía</p>
+						<p>Ataque</p>
 					</div>
 					</div>	
 				</div>

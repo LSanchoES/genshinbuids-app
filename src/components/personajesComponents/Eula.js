@@ -20,12 +20,21 @@ export const Eula = (props) => {
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
 
+						{claymoreComponents.Pinos}
+						{claymoreComponents.Lapida}
+						{claymoreComponents.Desidia}
+						{claymoreComponents.Orgullo}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						
+						{claymoreComponents.Medula}
+						{claymoreComponents.GranPenasco}
+						{claymoreComponents.Litica}
+						{claymoreComponents.Arcaico}
+						{claymoreComponents.Argento}
 
 
 						</div>
@@ -40,12 +49,34 @@ export const Eula = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.LLamas}x4
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.LLamas}x2
+							{artefactosComponents.Caballeria}x2
 
+							</div>	
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Gladiador}x2
+							{artefactosComponents.Caballeria}x2
+
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Gladiador}x2
+							{artefactosComponents.LLamas}x2
+
+							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+							{artefactosComponents.Gladiador}x4
 
 							</div>
 
@@ -60,7 +91,6 @@ export const Eula = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -71,7 +101,7 @@ export const Eula = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Físico </p>
 
 
 					</div>	
@@ -87,9 +117,13 @@ export const Eula = (props) => {
 						<h3>SubStats</h3>
 
 
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
+
+
+						<p>Recarga de energía</p>
 						<p>% Ataque</p>
 						<p>Ataque</p>
-						<p>Recarga de energía</p>
 						
 					</div>
 					</div>	

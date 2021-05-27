@@ -30,10 +30,11 @@ export const Keqing = (props) => {
 
 						{espadaComponents.Negra}
 						{espadaComponents.Rugido}
+						{espadaComponents.Rencor}
 						{espadaComponents.Flauta}
 						{espadaComponents.PenascoOsucro}
-						{espadaComponents.Rencor}
 						{espadaComponents.Destello}
+						{espadaComponents.Espina}
 
 
 						</div>
@@ -52,6 +53,107 @@ export const Keqing = (props) => {
 							{artefactosComponents.Furia}x2
 
 							</div>
+
+							<div className="buildParticular__artefactos-item">
+
+
+							{artefactosComponents.Domador}x4			
+
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+
+							{artefactosComponents.Furia}x2		
+							{artefactosComponents.Nobleza}x2		
+
+							</div>
+
+						</div>
+				</div>
+
+				<div className="buildParticular__stats-container">
+					<h2>Stats</h2>
+					<div className="buildParticular__stat-wrap">
+					<div className="buildParticular__stat-item">
+
+						{/* INTRODUCIR STATS  <P> */}
+						<h3>Reloj</h3>
+
+						<p>Ataque</p>
+
+
+					</div>	
+					<div className="buildParticular__stat-item">
+
+						<h3>Copa</h3>
+
+
+						
+						<p>Bono daño Electro</p>
+
+
+					</div>	
+					<div className="buildParticular__stat-item">
+						<h3>Casco</h3>
+
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
+
+
+					</div>	
+					<div className="buildParticular__stat-item">
+						<h3>SubStats</h3>
+
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
+						<p>% Ataque</p>
+						<p>Ataque</p>
+						<p>Maestría Elemental</p>
+						<p>Recarga de energía</p>
+						
+					</div>
+					</div>	
+				</div>
+			</div>
+
+			{/* Build 2 */}
+		
+			<div className="buildParticular__container">
+				<h1>{personaje.rol2}</h1>
+
+					{/* COMPONENTES DE ARMAS */}
+					<div className="buildParticular__armas-container">
+
+						<div className="buildParticular__armas" >
+						<h2>Armas⭐⭐⭐⭐⭐</h2>
+
+						{espadaComponents.Cortador}
+						{espadaComponents.Aquila}
+						{espadaComponents.Rompemontanas}
+
+
+						</div>
+						<div className="buildParticular__armas" >
+							<h2>Armas⭐⭐⭐⭐</h2>
+
+						{espadaComponents.Negra}
+						{espadaComponents.Rugido}
+						{espadaComponents.Flauta}
+						{espadaComponents.PenascoOsucro}
+						{espadaComponents.Rencor}
+						{espadaComponents.Destello}
+
+
+						</div>
+
+				</div>
+
+				<div className="buildParticular__artefactos-container">
+					<h2>Artefactos</h2>
+						<div className="buildParticular__artefactos">
+
+							{/* COMPONENTES DE ARTEFACTOS */}
+
 
 							<div className="buildParticular__artefactos-item">
 
@@ -88,8 +190,7 @@ export const Keqing = (props) => {
 
 
 						
-						<p>Bono daño Electro(si elegiste el set con Furia del Trueno)</p>
-						<p>Bono daño Físico(si elegiste el set con LLamas albinas)</p>
+						<p>Bono daño Físico</p>
 
 
 					</div>	
@@ -114,7 +215,6 @@ export const Keqing = (props) => {
 					</div>	
 				</div>
 			</div>
-			
 
 			<Footer />
 		</>

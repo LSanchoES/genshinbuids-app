@@ -1,7 +1,7 @@
 import React from "react";
+import { Footer } from "../Footer";
 import { artefactosComponents } from "../../helpers/artefactosComponents";
 import { espadaComponents } from "../../helpers/espadaComponents";
-import { Footer } from "../Footer";
 
 
 export const Viajero_Geo = (props) => {
@@ -19,13 +19,22 @@ export const Viajero_Geo = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
+						{espadaComponents.Cortador}
+						{espadaComponents.Rompemontanas}
+						{espadaComponents.Aquila}
 
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{espadaComponents.Deseo}
+						{espadaComponents.PenascoOsucro}
+						{espadaComponents.Negra}
+						{espadaComponents.Espina}
+						{espadaComponents.Rugido}
+						{espadaComponents.Flauta}
+						{espadaComponents.Descenso}
 
 
 						</div>
@@ -40,14 +49,19 @@ export const Viajero_Geo = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
+							{artefactosComponents.Gladiador}x2			
+							{artefactosComponents.Petra}x2
 
 							</div>
 
 							<div className="buildParticular__artefactos-item">
 
 
+							{artefactosComponents.Petra}x2			
+							{artefactosComponents.Nobleza}x2			
 
 							</div>
+
 
 						</div>
 				</div>
@@ -60,7 +74,6 @@ export const Viajero_Geo = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -71,7 +84,7 @@ export const Viajero_Geo = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Geo</p>
 
 
 					</div>	
@@ -86,17 +99,19 @@ export const Viajero_Geo = (props) => {
 					<div className="buildParticular__stat-item">
 						<h3>SubStats</h3>
 
-
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	
 				</div>
 			</div>
-			
-			{/* BUILD 2 */}
+
+			{/* Build 2 */}
+		
 			<div className="buildParticular__container">
 				<h1>{personaje.rol2}</h1>
 
@@ -106,13 +121,19 @@ export const Viajero_Geo = (props) => {
 						<div className="buildParticular__armas" >
 						<h2>Armas⭐⭐⭐⭐⭐</h2>
 
-
+						{espadaComponents.Aquila}
+						{espadaComponents.Rompemontanas}
+						{espadaComponents.Cortador}
+						{espadaComponents.Hoja}
 
 						</div>
 						<div className="buildParticular__armas" >
 							<h2>Armas⭐⭐⭐⭐</h2>
 
-
+						{espadaComponents.Rencor}
+						{espadaComponents.PenascoOsucro}
+						{espadaComponents.Flauta}
+						{espadaComponents.Espina}
 
 
 						</div>
@@ -125,15 +146,45 @@ export const Viajero_Geo = (props) => {
 
 							{/* COMPONENTES DE ARTEFACTOS */}
 
+
 							<div className="buildParticular__artefactos-item">
 
+
+							{artefactosComponents.LLamas}x2		
+							{artefactosComponents.Gladiador}x2		
 
 							</div>
-
 							<div className="buildParticular__artefactos-item">
 
 
+							{artefactosComponents.LLamas}x2		
+							{artefactosComponents.Caballeria}x2		
 
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+
+							{artefactosComponents.LLamas}x4			
+
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+
+							{artefactosComponents.Gladiador}x4		
+
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+
+							{artefactosComponents.Caballeria}x2		
+							{artefactosComponents.Gladiador}x2		
+
+							</div>
+							<div className="buildParticular__artefactos-item">
+
+
+							{artefactosComponents.Retroceso}x4		
+								
 							</div>
 
 						</div>
@@ -147,7 +198,6 @@ export const Viajero_Geo = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Recarga de Energía</p>
 						<p>Ataque</p>
 
 
@@ -158,7 +208,7 @@ export const Viajero_Geo = (props) => {
 
 
 						
-						<p>Bono daño </p>
+						<p>Bono daño Físico</p>
 
 
 					</div>	
@@ -173,15 +223,17 @@ export const Viajero_Geo = (props) => {
 					<div className="buildParticular__stat-item">
 						<h3>SubStats</h3>
 
-
+						<p>Daño Crítico</p>
+						<p>Probabilidad de Crítico</p>
 						<p>% Ataque</p>
-						<p>Ataque</p>
 						<p>Recarga de energía</p>
+						<p>Ataque</p>
 						
 					</div>
 					</div>	
 				</div>
 			</div>
+
 			<Footer />
 		</>
 	);

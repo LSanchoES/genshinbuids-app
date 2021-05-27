@@ -8,6 +8,15 @@
     text-align: center;
 }
 
+.foot__go-up{
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    width: 4ch;
+    border: 2px solid black;
+    padding: 3rem;
+}
+
 @media (max-width: 550px){
     .head__title{
         font-size: 5ch;
