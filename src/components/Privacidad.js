@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 export const Privacidad = () => {
+
+	const ref = useRef()
+
+	useEffect(() => {
+		ref.current.scrollIntoView()
+		}, [])
+	
 	return (
         
+
 		<div className=" animate__animated animate__fadeIn politica-privacidad-container">
 
-
+			<span ref={ref}></span>
 			<h1><Link to='/'><h5>Volver</h5></Link></h1>
 			<br/>
 			<p>

@@ -28,7 +28,7 @@ export const ArcoScreen = () => {
 			</h1>
 			<div className="artefactosScreen__tip animate__animated animate__fadeIn">
 				<p>
-					Solo se muestran las armas 5⭐y 4⭐ (y cuento de dragones 3⭐) ya que son
+					Solo se muestran las armas 5⭐y 4⭐ ya que son
 					estas son las que mayor potencial tienen y las que se usan en las builds
 					más poderosas. (Recuerda que los valores de los efectos de las armas
 					aumentan cuando las refinas)

@@ -36,26 +36,7 @@ export const ArtefactosScreen = () => {
 				</div>
 
 			<div className="artefactosScreen__container animate__animated animate__fadeIn">
-				<div className="artefactosScreen__card">
-					<div className="artefactosScreen__sections">
-						<section>
-						<Bruja/>
-						</section>
-					<section>
-						<h3>2 Piezas</h3>
-						<p>
-						Bonificación de daño Pyro +15%
-						</p>
-					</section>
-					<section>
-						<h3>4 Piezas</h3>
-						<p>
-						Aumenta el daño de Sobrecargado y En llamas un 40%. Aumenta el daño de Vaporizar y Derretir un 15%. Usar una habilidad elemental potencia los efectos de conjuntos de 2 piezas un 50% durante 10s. Se puede acumular hasta 3 veces
 
-						</p>
-					</section>
-					</div>
-				</div>
 				
 				<div className="artefactosScreen__card">
 					<div className="artefactosScreen__sections">
@@ -136,6 +117,27 @@ export const ArtefactosScreen = () => {
 					</section>
 					</div>
 				</div>
+
+				<div className="artefactosScreen__card">
+					<div className="artefactosScreen__sections">
+						<section>
+						<Llamas/>
+						</section>
+					<section>
+						<h3>2 Piezas</h3>
+						<p>
+						Daño Físico +25%			
+						</p>
+					</section>
+					<section>
+						<h3>4 Piezas</h3>
+						<p>
+						Cuando una Habilidad Elemental golpea al enemigo, el ATQ de todos los miembros del equipo cercanos aumenta 9% durante 7 s. Este efecto puede acumularse hasta 2 veces y puede ser activado cada 0.3 s. Cuando se llega a aplicar 2 veces, el efecto del conjunto de 2 piezas aumenta un 100%
+						</p>
+					</section>
+					</div>
+				</div>
+
 				
 				<div className="artefactosScreen__card">
 					<div className="artefactosScreen__sections">
@@ -242,6 +244,26 @@ export const ArtefactosScreen = () => {
 				<div className="artefactosScreen__card">
 					<div className="artefactosScreen__sections">
 						<section>
+						<Bruja/>
+						</section>
+					<section>
+						<h3>2 Piezas</h3>
+						<p>
+						Bonificación de daño Pyro +15%
+						</p>
+					</section>
+					<section>
+						<h3>4 Piezas</h3>
+						<p>
+						Aumenta el daño de Sobrecargado y En llamas un 40%. Aumenta el daño de Vaporizar y Derretir un 15%. Usar una habilidad elemental potencia los efectos de conjuntos de 2 piezas un 50% durante 10s. Se puede acumular hasta 3 veces
+
+						</p>
+					</section>
+					</div>
+				</div>
+				<div className="artefactosScreen__card">
+					<div className="artefactosScreen__sections">
+						<section>
 						<Corredor/>
 						</section>
 					<section>
@@ -337,25 +359,6 @@ export const ArtefactosScreen = () => {
 						<p>
 						Aumenta en un 20% la Probabilidad de Crítico contra enemigos afectados por Cryo. Si el enemigo está Congelado, la Probabilidad de Crítico aumentará en un 20% adicional.
 
-						</p>
-					</section>
-					</div>
-				</div>
-				<div className="artefactosScreen__card">
-					<div className="artefactosScreen__sections">
-						<section>
-						<Llamas/>
-						</section>
-					<section>
-						<h3>2 Piezas</h3>
-						<p>
-						Daño Físico +25%			
-						</p>
-					</section>
-					<section>
-						<h3>4 Piezas</h3>
-						<p>
-						Cuando una Habilidad Elemental golpea al enemigo, el ATQ de todos los miembros del equipo cercanos aumenta 9% durante 7 s. Este efecto puede acumularse hasta 2 veces y puede ser activado cada 0.3 s. Cuando se llega a aplicar 2 veces, el efecto del conjunto de 2 piezas aumenta un 100%
 						</p>
 					</section>
 					</div>
