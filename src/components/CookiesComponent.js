@@ -9,10 +9,10 @@ export const CookiesComponent = () => {
 			cookieName="Google_SEO"
 			expires={150}
 		>
-      <div className="cookies__container">
-			GenshinBuilds.es utiliza Cookies para más información visita nuestra política de privacidad,
+      
+			GenshinBuilds.es utiliza Cookies para el posicionamiento en Google, si quieres más información visita nuestra política de privacidad al pie de página,
       si permaneces en el sitio significa que las aceptas.
-      </div>
+      
       {" "}
 		</CookieConsent>
 	);
