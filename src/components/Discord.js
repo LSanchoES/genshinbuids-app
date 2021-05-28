@@ -19,7 +19,7 @@ export const Discord = () => {
 						</i>
 					</p>
 				</div>
-				<div className="personajeBuild__card animate__animated animate__fadeIn">
+				<div className="discord__card animate__animated animate__fadeIn">
 					<div className="discord-frame">
 						<iframe
                             title="discord-iframe"

@@ -10,11 +10,11 @@ export const NavbarUi = () => {
 			<Link to='/'><h5>Personajes</h5></Link>
 			<Link to='/artefactos'><h5>Artefactos</h5></Link>
 			<Collapsible trigger={<h5>Armas</h5>}>
+				<Link to='/arcos'><h5>Arcos</h5></Link>
 				<Link to='/catalizadores'><h5>Catalizadores</h5></Link>
 				<Link to='/claymores'><h5>Claymores</h5></Link>
 				<Link to='/espadas'><h5>Espadas</h5></Link>
 				<Link to='/lanzas'><h5>Lanzas</h5></Link>
-				<Link to='/arcos'><h5>Arcos</h5></Link>
 			</Collapsible>
 
 			<Link to='/discord'><h5>Discord</h5></Link>
@@ -26,11 +26,11 @@ export const NavbarUi = () => {
 		
 			<Link to='/'><h5>Personajes</h5></Link>
 			<Link to='/artefactos'><h5>Artefactos</h5></Link>
+			<Link to='/arcos'><h5>Arcos</h5></Link>
 			<Link to='/catalizadores'><h5>Catalizadores</h5></Link>
 			<Link to='/claymores'><h5>Claymores</h5></Link>
 			<Link to='/espadas'><h5>Espadas</h5></Link>
 			<Link to='/lanzas'><h5>Lanzas</h5></Link>
-			<Link to='/arcos'><h5>Arcos</h5></Link>
 			<Link to='/discord'><h5>Discord</h5></Link>
 
 

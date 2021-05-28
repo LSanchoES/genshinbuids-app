@@ -22,7 +22,7 @@ export const personajes = [
 		element: "Pyro",
 		weapon: "arco",
 		rol1: "DPS",
-		rol2: "Nuke",
+		rol2: "Apoyo",
 		
 	},
 	{
