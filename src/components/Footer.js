@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { CookiesComponent } from './CookiesComponent';
 
 export const Footer = () => {
 
@@ -8,6 +9,7 @@ export const Footer = () => {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
+    
     return (
         
         <div className="foot__container">
@@ -47,6 +49,7 @@ export const Footer = () => {
                 <Link to='/privacidad'><h5>Política de privacidad</h5></Link>
 
            </div>
+           <CookiesComponent />
         </div>
         
     )

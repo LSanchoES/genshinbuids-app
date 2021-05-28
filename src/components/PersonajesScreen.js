@@ -12,6 +12,7 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 
 
+
 export const PersonajesScreen = () => {
 	const [listaPersonajes, setListaPersonajes] = useState(personajes);
 	const [isActive, setIsActive] = useState(false);
@@ -70,7 +71,6 @@ export const PersonajesScreen = () => {
 
 	return (
 		<>
-
 
 			
 			<div className="pS__container  ">

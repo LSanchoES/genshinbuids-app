@@ -103,7 +103,41 @@
     box-shadow: 2px 2px 5px $black-styled;
     margin: 1rem;
 }
+//COOKIES
 
+.CookieConsent{
+    display: flex !important;
+    flex-direction: column !important;
+    margin-bottom: 0px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: $primary-low !important;
+    color: $black-styled !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+    :first-child{
+        display: flex !important;
+        font-size: 2ch !important;
+        width: 80vw !important;
+    }
+
+}
+#rcc-confirm-button{
+    display: flex !important;
+    background-color: $primary-low !important;
+    color: $primary !important;
+    transition: all 300ms !important;
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+    justify-content: center !important;
+    box-shadow: -2px -2px 5px $secondary inset !important;
+    border-radius: 12px !important;
+    &:hover{
+        color: $secondary !important;
+    }
+    
+}
 //QUERIES
 
 @media (max-width: 550px){
