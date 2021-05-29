@@ -46,7 +46,7 @@ export const Footer = () => {
            </div>
            <div className="politica-privacidad">
 
-                <Link to='/privacidad'><h5>Política de privacidad</h5></Link>
+                <Link to='/privacidad' rel="nofollow"><h5>Política de privacidad</h5></Link>
 
            </div>
            <CookiesComponent />
