@@ -1,9 +1,9 @@
 import React, { useRef } from 'react'
 
-
 export const Header = () => {
     
     const heading = useRef()
+
 
     return (
 		<div className="pS__container"
