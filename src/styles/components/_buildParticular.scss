@@ -61,7 +61,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100vw;
     min-width: 80vw;
     margin: 1rem;
     justify-content: center;
@@ -127,9 +126,10 @@
     }
 
 }
-@media (max-width:350px){
+@media (max-width:550px){
 
     .buildParticular__artefactos-item{
         flex-direction: column;
     }
 }
+

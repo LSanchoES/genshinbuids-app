@@ -45,8 +45,8 @@ export const Xiangling = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
-							{artefactosComponents.Nobleza}x4
-							{artefactosComponents.Bruja}x4
+							{artefactosComponents.Nobleza}x2
+							{artefactosComponents.Bruja}x2
 							</div>
 
 							<div className="buildParticular__artefactos-item">
@@ -61,12 +61,12 @@ export const Xiangling = (props) => {
 							{artefactosComponents.Gladiador}x2
 
 
+							</div>	
 							<div className="buildParticular__artefactos-item">
 
 							{artefactosComponents.Nobleza}x2
 							{artefactosComponents.Errante}x2
 
-							</div>	
 							</div>
 							
 							<div className="buildParticular__artefactos-item">
