@@ -252,7 +252,7 @@ Daño Crítico
 						<Lapida/> 
 						</section>
 						<section>
-						⭐⭐⭐⭐	
+						⭐⭐⭐⭐⭐	
 						</section>
 					<section>
 						<h3>Stat principal</h3>
