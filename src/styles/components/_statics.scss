@@ -132,6 +132,9 @@
         width: 80vw !important;
         text-align: center !important;
         justify-content: center !important;
+        width: 100% !important;
+        margin-left: 5vw !important;
+        margin-right: 5vw !important;
         
     }
 
@@ -147,6 +150,7 @@
     text-align: center !important;
     box-shadow: -2px -2px 5px $black-styled inset !important;
     border-radius: 12px !important;
+    
     &:hover{
         color: $secondary !important;
     }

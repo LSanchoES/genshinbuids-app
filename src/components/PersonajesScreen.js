@@ -122,12 +122,12 @@ export const PersonajesScreen = () => {
 								}}
 								style={{ textDecoration: "none" }}
 							>
-								<div className="pS__personaje-card animate__animated animate__fadeIn animate__slow">
+								<div className="pS__personaje-card animate__animated animate__fadeIn">
 									<h2 className={personaje.element}>{personaje.name}</h2>
 									<img
-										src={portraitImages(`./${personaje.name}.jpg`).default}
+										className="pS__personaje-thumbnail animate__animated animate__fadeIn"
+										src={portraitImages(`./${personaje.name}.png`).default}
 										alt={personaje.name}
-										className="pS__personaje-thumbnail"
 									/>
 								</div>
 							</Link>
