@@ -50,6 +50,7 @@ export const PersonajeBuild = (history) => {
     const {location} = history
     const {state} = location
     const {personaje} = state;
+    
 
     //Top de cada page
 
