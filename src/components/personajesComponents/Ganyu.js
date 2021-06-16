@@ -44,7 +44,8 @@ export const Ganyu = (props) => {
 
 							<div className="buildParticular__artefactos-item">
 
-								{artefactosComponents.Errante}x4
+								{artefactosComponents.Nomada}x4
+
 							</div>
 							<div className="buildParticular__artefactos-item">
 
@@ -53,7 +54,7 @@ export const Ganyu = (props) => {
 							</div>
 							<div className="buildParticular__artefactos-item">
 
-								{artefactosComponents.Nomada}x4
+							{artefactosComponents.Errante}x4
 
 							</div>
 

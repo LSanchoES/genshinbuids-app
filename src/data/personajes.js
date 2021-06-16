@@ -87,7 +87,7 @@ export const personajes = [
 		element: "Cryo",
 		weapon: "arco",
 		rol1: "DPS",
-		rol2: "Nuke",
+		rol2: "SubDPS",
 	},
 
 	{
@@ -184,7 +184,7 @@ export const personajes = [
 		element: "Cryo",
 		weapon: "lanza",
 		rol1: "DPS",
-		rol2: "Nuke",
+		rol2: "SubDPS",
 	},
 	{
 		id: "23",

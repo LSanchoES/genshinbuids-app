@@ -66,8 +66,8 @@ export const Bennett = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
-						<p>Ataque</p>
 						<p>Recarga de Energía</p>
+						<p>Ataque</p>
 
 
 					</div>	

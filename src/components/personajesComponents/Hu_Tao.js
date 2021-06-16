@@ -84,6 +84,7 @@ export const Hu_Tao = (props) => {
 						{/* INTRODUCIR STATS  <P> */}
 						<h3>Reloj</h3>
 
+						<p>Ataque</p>
 						<p>Vida</p>
 						<p>Maestría Elemental</p>
 
