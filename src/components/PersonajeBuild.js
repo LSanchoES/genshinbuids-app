@@ -41,6 +41,7 @@ import { Xingqiu } from './personajesComponents/Xingqiu';
 import { Xinyan } from './personajesComponents/Xinyan';
 import { Yanfei } from './personajesComponents/Yanfei';
 import { Zhongli } from './personajesComponents/Zhongli';
+import { Kazuha } from './personajesComponents/Kazuha';
 
 
 export const PersonajeBuild = (history) => {
@@ -99,6 +100,7 @@ export const PersonajeBuild = (history) => {
         Xinyan: Xinyan,
         Yanfei: Yanfei,
         Zhongli: Zhongli,
+        Kazuha: Kazuha
 
       };
 

@@ -1,4 +1,12 @@
-export const personajes = [
+export const personajes = [ 
+	{
+		id: "35",
+		name: "Kazuha",
+		element: "Anemo",
+		weapon: "espada",
+		rol1: "Apoyo",
+		rol2: "Apoyo",
+	},
 	{
 		id: "34",
 		name: "Eula",
